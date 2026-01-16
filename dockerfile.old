@@ -1,0 +1,19 @@
+# Use an official Minecraft base image
+FROM itzg/minecraft-server:latest
+
+# Set working directory to /data
+WORKDIR /data
+
+# Copy Forge installer into container (from local directory to container's /data)
+COPY forge-1.20.1-47.4.0-installer.jar /data/forge-installer.jar
+
+# Install Java 17 (ensure you have Java 17 for running Forge)
+RUN apt-get update && apt-get install -y openjdk-17-jdk
+
+# Run the Forge installer (this will install Forge in /data)
+RUN java -jar /data/forge-installer.jar --installServer
+
+# Set the command to run Minecraft with Forge
+# This assumes Forge was installed as /data/forge-1.20.1-47.4.0.jar
+CMD ["java", "-Xmx6G", "-Xms6G", "-jar", "/data/forge-1.20.1-47.4.0.jar", "nogui"]
+

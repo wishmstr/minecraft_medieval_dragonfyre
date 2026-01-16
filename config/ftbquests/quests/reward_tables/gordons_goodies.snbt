@@ -1,0 +1,31 @@
+{
+	id: "27B628E39B823EBC"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:netherite_scrap"
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:netherite_scrap"
+			}
+		}
+	]
+	title: "Gordon's Goodies"
+}

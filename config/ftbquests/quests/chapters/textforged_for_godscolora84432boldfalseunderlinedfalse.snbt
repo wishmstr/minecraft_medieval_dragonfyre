@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textforged_for_godscolora84432boldfalseunderlinedfalse"
+	group: "6DA56B7951D57C80"
+	id: "4373AF9FCBF3EDCA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Legends speak of a bow woven from the essence of falling rain and cooled starlight."
+				""
+				"&bRainfall Serenity &ffires beams of pure starlight, completely bypassing foes' arrow immunity thus making it the ultimate weapon for any established archer."
+			]
+			id: "6CEA4BBBA399DF4F"
+			rewards: [{
+				count: 100
+				id: "63F9F36FECA81E42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Shooting Stars"
+			tasks: [{
+				id: "5A2CC42EF875AFE4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Celestial Archery"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"After the &4Fell King's &fdefeat, &6Cisco &fachieved &9azure ascendancy &fimbuing &6equillibrium &fwith his newly found sacred power."
+				""
+				"&eAbsolute Equllibrium &fdeals damage equivalent to a portion of the enemy's lifeforce ensuring that's it's wielder is never outmatched."
+			]
+			id: "0C6531A8C19D0F9F"
+			rewards: [{
+				count: 150
+				id: "11F434215A0DA0C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Harmony Restored"
+			tasks: [{
+				id: "2C1822FE87EBDBA7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:absolute_equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Absolute Equillibrium"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"In the heart of the Verdant Deep, where ocean meets forest and silence hums with power, lies the whisper of a forgotten weapon."
+				""
+				"&dAquaflora &ftruly &fblossoms when critical hits are obtained, allowing you ro decimate foes with precison and grace."
+			]
+			id: "7174070087002A46"
+			rewards: [{
+				count: 100
+				id: "65DA60E88A555788"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Petal's Wrath"
+			tasks: [{
+				id: "1C405390B99FC3B8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Floral Surge"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"In an alternate timeline the &4Fell King &fconvinces the unamed hero to betray &6Cisco. "
+				""
+				"&6Cisco &ffully embraces the darkness within becoming the descended hero with Nightfall attaining it's final form."
+				""
+				"&cSupreme Nightfall &fpossesses a mysterious hunger for blood being able to take on a sentient defensive form when not in use to still be in the battle."
+			]
+			id: "0BC487662704AE6E"
+			rewards: [{
+				count: 200
+				id: "5759A48786E5CD1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "embellish"
+			subtitle: "Balance Unbound"
+			tasks: [{
+				id: "00C592DCC38094B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:supreme_nightfall"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+	]
+	title: "{\"text\":\"Weapons of Legend\",\"color\":\"#f5ce42\",\"bold\":false,\"underlined\":false}"
+}

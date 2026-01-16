@@ -1,0 +1,27 @@
+{
+  "list": [
+    {
+      "attackScale": 1.0,
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 50,
+        "min": 200,
+        "scale": 0.0,
+        "suppression": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "mowziesmobs:umvuthi"
+      ],
+      "healthScale": 1.5,
+      "items": [],
+      "maxLevel": 0,
+      "maxTraitCount": -1,
+      "minSpawnLevel": 0,
+      "specialConditions": [],
+      "traits": []
+    }
+  ]
+}

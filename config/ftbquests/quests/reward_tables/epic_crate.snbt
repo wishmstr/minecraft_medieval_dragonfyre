@@ -1,0 +1,185 @@
+{
+	id: "77D0B7C123BCF34D"
+	loot_crate: {
+		color: 8388736
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "epic_crate"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:diamond"
+			}
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:netherite_ingot"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:nether_star"
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplyswords:empowered_remnant"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:diamond_spell_book"
+				tag: {
+					ISB_spellbook: {
+						activeSpellIndex: -1
+						spellSlots: 8
+						spells: [ ]
+					}
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:epic_material"
+			}
+		}
+		{
+			count: 25
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:epic_ink"
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 100
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "forbidden_arcanus:eternal_stella"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "origins:orb_of_origin"
+			}
+			weight: 0.5f
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheotic_additions:esoteric_material"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:ancient_material"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 50
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:champion_coin"
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:champion_loot_bag"
+			}
+			weight: 0.5f
+		}
+	]
+	title: "Epic Crate"
+}

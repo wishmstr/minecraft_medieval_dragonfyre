@@ -1,0 +1,24 @@
+services:
+  mc:
+    image: itzg/minecraft-server:java21
+    container_name: minecraft-medieval
+    restart: always
+    environment:
+      TZ: "America/New_York"
+      EULA: "TRUE"
+      TYPE: FORGE
+      VERSION: 1.20.1
+      FORGE_VERSION: 47.4.0
+      GENERIC_PACK: /modpacks-medieval/CARPG_Dragonfyre_V2F_Beta_Serv.zip # matches mounted folder
+      CUSTOM_SERVER: /data/forge-1.20.1-47.4.0-installer.jar
+      JVM_OPTS: "-Xmx16G -Xms16G -Dmax-tick-time=60000"
+      MEMORY: 16G
+    ports:
+      - 14114:25565
+    volumes:
+      - ./mods:/data/mods
+      - ./config:/data/config
+      - medieval_data:/data
+      - ./modpacks:/modpacks-medieval
+volumes:
+  medieval_data: {}

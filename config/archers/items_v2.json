@@ -1,0 +1,280 @@
+{
+  "ranged_weapons": {
+    "archers:netherite_rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 18.5,
+      "velocity": 0.0
+    },
+    "archers:netherite_longbow": {
+      "pull_time": 30,
+      "damage": 24.0,
+      "velocity": 0.0
+    },
+    "archers:rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 16.5,
+      "velocity": 0.0
+    },
+    "archers:netherite_heavy_crossbow": {
+      "pull_time": 35,
+      "damage": 30.0,
+      "velocity": 0.0
+    },
+    "archers:netherite_shortbow": {
+      "pull_time": 16,
+      "damage": 18.0,
+      "velocity": 0.0
+    },
+    "archers:crystal_shortbow": {
+      "pull_time": 16,
+      "damage": 20.0,
+      "velocity": 0.0
+    },
+    "archers:ruby_heavy_crossbow": {
+      "pull_time": 35,
+      "damage": 34.0,
+      "velocity": 0.0
+    },
+    "archers:crystal_longbow": {
+      "pull_time": 30,
+      "damage": 26.5,
+      "velocity": 0.0
+    },
+    "archers:royal_longbow": {
+      "pull_time": 30,
+      "damage": 20.0,
+      "velocity": 0.0
+    },
+    "archers:heavy_crossbow": {
+      "pull_time": 35,
+      "damage": 26.0,
+      "velocity": 0.0
+    },
+    "archers:ruby_rapid_crossbow": {
+      "pull_time": 20,
+      "damage": 20.5,
+      "velocity": 0.0
+    },
+    "archers:composite_longbow": {
+      "pull_time": 30,
+      "damage": 16.0,
+      "velocity": 0.0
+    },
+    "archers:mechanic_shortbow": {
+      "pull_time": 16,
+      "damage": 16.0,
+      "velocity": 0.0
+    }
+  },
+  "melee_weapons": {
+    "golden_spear": {
+      "attack_damage": 3.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "ruby_spear": {
+      "attack_damage": 8.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "diamond_spear": {
+      "attack_damage": 6.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "flint_spear": {
+      "attack_damage": 4.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "netherite_spear": {
+      "attack_damage": 7.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "iron_spear": {
+      "attack_damage": 5.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    },
+    "aeternium_spear": {
+      "attack_damage": 8.0,
+      "attack_speed": -2.6,
+      "attributes": []
+    }
+  },
+  "armor_sets": {
+    "archer_armor": {
+      "armor_toughness": 5.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.08,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.08,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.08,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.08,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "ranger_armor": {
+      "armor_toughness": 6.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 6,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.1,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 5,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.08,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.03,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    },
+    "netherite_ranger_armor": {
+      "armor_toughness": 7.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 7,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.35,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 8,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.35,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 8,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.35,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 7,
+        "attributes": [
+          {
+            "id": "ranged_weapon:damage",
+            "value": 0.35,
+            "operation": "MULTIPLY_BASE"
+          },
+          {
+            "id": "ranged_weapon:haste",
+            "value": 0.2,
+            "operation": "MULTIPLY_BASE"
+          }
+        ]
+      }
+    }
+  }
+}

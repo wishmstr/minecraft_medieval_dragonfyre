@@ -1,0 +1,51 @@
+
+[mobs]
+	#Do elementals spawn?
+	Elementals = true
+	#Do demons spawn?
+	Demons = true
+	#Do giant spider and spiderlings spawn?
+	Spiders = true
+	"Goblin patrols" = true
+
+[generation]
+	#Does Sorrow Spire generate in the Nether?
+	"Sorrow Spire" = true
+	#Do Arthropod Catacombs generate underground?
+	"Arthropod Catacombs" = true
+	#Do goblin camps generate around the world?
+	"Goblin camps" = true
+	#Do vases generate underground?
+	Vases = true
+	#Do abyssquartz crystals generate underground?
+	Abyssquartz = true
+	#Do spider eggs generate underground?
+	"Spider eggs" = true
+	#Do generic dungeons generate?
+	"Generic dungeons" = true
+	#Do geodites generate?
+	Geodites = true
+
+[functions]
+	#Amount of ticks it takes for a geodrill to produce a geode
+	"Geodrill time" = 12000.0
+	#Amout of ticks it takes for a goblin spawner to repopulate a goblin camp
+	"Goblin spawner cycle" = 12000.0
+	#Do mobs sometime drop coins?
+	"Coin drop" = true
+	#Do mobs sometimes drop geodes?
+	"Geode drop" = true
+
+[events]
+	#Do goblins sometimes raid the player?
+	"Goblin raids" = true
+	#Do Celestials invade the world after the dragon is slain?
+	"Skies of Ruin" = true
+	#Does Skies of ruin event sometimes repeat?
+	"Repeatable Skies of ruin" = true
+	#Do world events happen?
+	Events = true
+	"Event duration" = 1.0
+	"Event min time" = 7.0
+	"Event max time" = 28.0
+

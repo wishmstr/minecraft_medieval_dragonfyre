@@ -1,0 +1,122 @@
+
+#Bounty Bags Configuration
+[general]
+	#Whether bounty bags should drop from mobs at all
+	enableDrops = true
+	#Whether mobs in the Nether should have increased drop rates
+	enableNetherBonus = true
+	#Whether boss mobs should use special drop rates
+	enableBossSpecialRates = true
+	#Whether to use custom loot configuration instead of loot table JSON files
+	useCustomLoot = true
+	#Whether to allow ALL aggressive/hostile mobs to drop bounty bags (ignores allowedMobTypes list)
+	useAllAggressiveMobs = true
+
+#Drop chances for regular mobs (0.0 = 0%, 1.0 = 100%)
+[regular_mob_drops]
+	#Base chance for legendary bounty bag drops from regular mobs
+	#Range: 0.0 ~ 1.0
+	legendaryChance = 0.01
+	#Base chance for epic bounty bag drops from regular mobs
+	#Range: 0.0 ~ 1.0
+	epicChance = 0.02
+	#Base chance for super rare bounty bag drops from regular mobs
+	#Range: 0.0 ~ 1.0
+	superRareChance = 0.04
+	#Base chance for rare bounty bag drops from regular mobs
+	#Range: 0.0 ~ 1.0
+	rareChance = 0.15
+
+#Drop chances for boss mobs (0.0 = 0%, 1.0 = 100%)
+[boss_mob_drops]
+	#Chance for legendary bounty bag drops from boss mobs
+	#Range: 0.0 ~ 1.0
+	bossLegendaryChance = 0.5
+	#Chance for epic bounty bag drops from boss mobs
+	#Range: 0.0 ~ 1.0
+	bossEpicChance = 0.75
+
+#Nether drop rate multipliers
+[nether_bonuses]
+	#Multiplier for legendary drops in the Nether
+	#Range: 1.0 ~ 10.0
+	netherLegendaryMultiplier = 2.0
+	#Multiplier for epic drops in the Nether
+	#Range: 1.0 ~ 10.0
+	netherEpicMultiplier = 2.0
+	#Multiplier for super rare drops in the Nether
+	#Range: 1.0 ~ 10.0
+	netherSuperRareMultiplier = 1.5
+
+#Mob type configuration
+[mob_types]
+	#List of mob types that can drop bounty bags (use entity type registry names)
+	allowedMobTypes = ["minecraft:zombie", "minecraft:skeleton", "minecraft:creeper", "minecraft:spider", "minecraft:cave_spider", "minecraft:enderman", "minecraft:blaze", "minecraft:ghast", "minecraft:witch", "minecraft:pillager", "minecraft:vindicator", "minecraft:evoker", "minecraft:husk", "minecraft:stray", "minecraft:drowned", "minecraft:phantom", "minecraft:ravager", "minecraft:piglin_brute", "minecraft:zombified_piglin", "minecraft:hoglin", "minecraft:zoglin"]
+	#List of mob types considered as bosses (use entity type registry names)
+	bossMobTypes = ["minecraft:ender_dragon", "minecraft:wither"]
+
+#Individual mob drop rate multipliers
+[individual_mob_multipliers]
+	#Drop rate multiplier specifically for zombies
+	#Range: 0.0 ~ 10.0
+	zombieDropMultiplier = 1.0
+	#Drop rate multiplier specifically for skeletons
+	#Range: 0.0 ~ 10.0
+	skeletonDropMultiplier = 1.0
+	#Drop rate multiplier specifically for creepers
+	#Range: 0.0 ~ 10.0
+	creeperDropMultiplier = 1.2
+	#Drop rate multiplier specifically for spiders
+	#Range: 0.0 ~ 10.0
+	spiderDropMultiplier = 0.8
+	#Drop rate multiplier specifically for endermen
+	#Range: 0.0 ~ 10.0
+	endermanDropMultiplier = 1.5
+
+#Custom loot configuration - only used if useCustomLoot is true
+[loot_configuration]
+
+	#Rare bounty bag loot
+	[loot_configuration.rare_loot]
+		#Minimum number of items in rare bounty bags
+		#Range: 1 ~ 10
+		minItems = 1
+		#Maximum number of items in rare bounty bags
+		#Range: 1 ~ 15
+		maxItems = 3
+		#List of items for rare bounty bags. Format: 'item_id:count:weight' or 'item_id:count:weight:enchanted'
+		items = ["cisco_mod:champion_coin:10:5", "apotheosis:gem_dust:5:9", "apotheosis:rare_material:10:10", "apotheosis:epic_material:5:9"]
+
+	#Super rare bounty bag loot
+	[loot_configuration.super_rare_loot]
+		#Minimum number of items in super rare bounty bags
+		#Range: 1 ~ 10
+		minItems = 1
+		#Maximum number of items in super rare bounty bags
+		#Range: 1 ~ 15
+		maxItems = 3
+		#List of items for super rare bounty bags. Format: 'item_id:count:weight' or 'item_id:count:weight:enchanted'
+		items = ["minecraft:diamond:5:4", "cisco_mod:champion_coin:15:5", "apotheosis:sigil_of_socketing:1:4", "apotheosis:epic_material:10:9", "minecraft:enchanted_golden_apple:5:8", "minecraft:ender_chest:1:6", "minecraft:totem_of_undying:1:5"]
+
+	#Epic bounty bag loot
+	[loot_configuration.epic_loot]
+		#Minimum number of items in epic bounty bags
+		#Range: 1 ~ 10
+		minItems = 1
+		#Maximum number of items in epic bounty bags
+		#Range: 1 ~ 15
+		maxItems = 2
+		#List of items for epic bounty bags. Format: 'item_id:count:weight' or 'item_id:count:weight:enchanted'
+		items = ["minecraft:netherite_ingot:1:2", "cisco_mod:champion_coin:20:5", "apotheosis:mythic_material:7:5", "forbidden_arcanus:stellarite_piece:1:4", "cataclysm:burning_ashes:1:5", "minecraft:totem_of_undying:1:5"]
+
+	#Legendary bounty bag loot
+	[loot_configuration.legendary_loot]
+		#Minimum number of items in legendary bounty bags
+		#Range: 1 ~ 10
+		minItems = 1
+		#Maximum number of items in legendary bounty bags
+		#Range: 1 ~ 15
+		maxItems = 2
+		#List of items for legendary bounty bags. Format: 'item_id:count:weight' or 'item_id:count:weight:enchanted'
+		items = ["minecraft:netherite_ingot:5:5", "apotheosis:ancient_material:10:5", "cisco_mod:champion_coin:40:5", "dreadsteel:dreadsteel_ingot:1:3", "minecraft:nether_star:1:8", "minecraft:dragon_egg:1:2"]
+

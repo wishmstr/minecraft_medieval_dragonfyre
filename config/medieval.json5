@@ -1,0 +1,13 @@
+{
+	"enableCustomResourceBars": true,
+	"maxStacksPerEntity": 16,
+	"levelingSearchRadius": 128.0,
+	"levelsPerPoint": 0.2,
+	"cancelLevelsForPassives": true,
+	"allowedStructureNamespaces": [],
+	"additionalValidStructures": [],
+	"applyPlayerBasedLeveling": false,
+	"structureSearchRadius": 6,
+	"enableStructureLevelBonus": true,
+	"structureLevelBonuses": { }
+}

@@ -1,0 +1,184 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lesser_evils"
+	group: "6D7A192B0CC378A4"
+	icon: {
+		Count: 1
+		id: "mutantmonsters:mutant_skeleton_skull"
+		tag: {
+			Damage: 0
+			affix_data: {
+				affixes: {
+					"apotheosis:socket": 0.0f
+				}
+			}
+		}
+	}
+	id: "2FA380C2B515B7A4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Armed with a large bow this mutated &7skeleton &fposes a significant ranged threat . "
+				""
+				"It will vicously knockback enemies that get within &4melee range."
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "31FBA523D6A35AA4"
+			rewards: [{
+				count: 25
+				id: "2DAF8180CC1B5428"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Skeletal Sniper"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+						affix_data: {
+							affixes: {
+								"apotheosis:socket": 0.0f
+							}
+						}
+					}
+				}
+				id: "572A67B5EA3E3EF9"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slay Mutant Skeleton"
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			description: [
+				"This mutated &acreeper &fhas increased mobility and can attack in melee."
+				""
+				"Upon recieving fatal damage it will charge up and &4explode &fviolently leaving behind an egg."
+			]
+			id: "46E426066D19DABA"
+			rewards: [{
+				count: 20
+				id: "69D9C42B80884283"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Calamitous Creeper"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "minecraft:creeper_head"
+				id: "019B895F794DFBF4"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slay Mutant Creeper"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			description: [
+				"This mutated &denderman &fcan be found within the &5end &fand is significantly more threatening that it's lesser counterparts."
+				""
+				"After recieving fatal damage it will attempt to pull in and damage nearby enemies."
+			]
+			id: "16E8B9A8E0CC70B6"
+			rewards: [{
+				count: 35
+				id: "65EB24A8CD90C834"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Erratic Enderman"
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "supplementaries:enderman_head"
+				id: "3D97E4079C9D9E35"
+				title: "Slay Mutant Endermen"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slay Mutated Enderman"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"This mutated variant of the &2zombie &fwill attempt to launch you into the air before quickly slamming you back to ground . "
+				""
+				"It must be set on &6fire &for it will &aregenerate."
+			]
+			id: "417CD90BAD812204"
+			rewards: [{
+				count: 25
+				id: "5454557E6A779714"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "Zealous Zombie"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "minecraft:zombie_head"
+				id: "70B536B5EB9631DA"
+				title: "Slay Mutant Zombie"
+				type: "kill"
+				value: 3L
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+	]
+	title: "{\"text\":\"Lesser Evils\",\"color\":\"#DE1278\"}"
+}

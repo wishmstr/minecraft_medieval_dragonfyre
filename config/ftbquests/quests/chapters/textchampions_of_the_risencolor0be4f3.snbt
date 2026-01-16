@@ -1,0 +1,591 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 4.0d
+	filename: "textchampions_of_the_risencolor0be4f3"
+	group: "3B0CDB8395E59365"
+	icon: "l2hostility:infinity_glove"
+	id: "1B161961AE8D4542"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Throughout your journey, you will face enemies wielding &dabilities&f of terrifying strength. These powers grow in scale ranging from regular, to advanced, and even legendary traits."
+				""
+				"Such foes are far deadlier than ordinary adversaries and they may adapt to your attacks, reflect your strikes back upon you, or even rise again after being killed."
+				""
+				"Yet hope endures. Scattered across the realm and within the possesion of formiddable foes lie powerful &6Artifacts, &frelics forged to counter these hostile &dabilities&f."
+				""
+				"Each &6Artifact &fgrants protection or resistance against a specific power, turning the enemy’s strength into little more than a shadow of its former threat. Seek them out, and you may tip the scales of battle in your favor."
+			]
+			id: "346AD4946346FC35"
+			rewards: [{
+				id: "4EDD51CD90117D30"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "spstar"
+			size: 6.0d
+			subtitle: "Artifacts of Endless War"
+			tasks: [{
+				id: "7F53A199688A910A"
+				title: "Click to complete"
+				type: "checkmark"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: ["An item to be used in tandem with the hostility detector and detector glasses to remove the levels from a chunk."]
+			id: "3983BCA121155B3E"
+			rewards: [{
+				id: "39055F6661790918"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Hostility Haven"
+			tasks: [{
+				id: "03744516EF886383"
+				item: "l2hostility:hostility_orb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			description: ["Shows player and regional difficulty information when held."]
+			id: "5A2FA9E3C013A435"
+			rewards: [{
+				id: "47240470B6321CEF"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Detecting Danger"
+			tasks: [{
+				id: "210380A596279B01"
+				item: "l2hostility:hostility_detector"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			description: ["An artifact useful for detecting invisible enemies."]
+			id: "27E1F18AFD9BCF98"
+			rewards: [{
+				id: "478ED27CD29C15C8"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Prying Eyes"
+			tasks: [{
+				id: "1A3B0DE27A0EA5EB"
+				item: "l2hostility:detector_glasses"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			description: ["Increases difficulty when worn but grants an increased chance to obtain trait items."]
+			id: "7E7F4C3DD8CF567E"
+			rewards: [{
+				id: "0F6208AC0DD76A34"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Enamoured by Envy"
+			tasks: [{
+				id: "74B5B479E1F0C1D4"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["Grants an increased chance to obtain bottle's of curse per level from slain enemies."]
+			id: "127AE05AD4FDD752"
+			rewards: [{
+				id: "669F4917DD071C91"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Glory and Gluttony"
+			tasks: [{
+				id: "1F6F968FCB168453"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["Doubles the hositility loot drop chance at the cost of extra difficulty."]
+			id: "55178E0FFBE8E8D3"
+			rewards: [{
+				id: "4F9E86BBFD435282"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Fortune's Cruel Bargain"
+			tasks: [{
+				id: "52FC8260CDAEEE2D"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			description: ["Make enemies drop thier equipment when slain at the cost of increased difficulty."]
+			id: "33E2609C4D5B8167"
+			subtitle: "Desire to Derobe"
+			tasks: [{
+				id: "0D7195B3F366D38C"
+				item: "l2hostility:curse_of_lust"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -12.0d
+		}
+		{
+			description: ["Gained increased health and attack damage per difficulty level at the cost of making enemy traits more frequent."]
+			id: "6716D8BDD51B4DAA"
+			rewards: [{
+				id: "2883DBFCA12D853E"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Pride and Penance"
+			tasks: [{
+				id: "6867BEEB337D42C6"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			description: ["Cease the gain of level from slaying enemies at the expense of gaining loot."]
+			id: "0F995C891EB3483B"
+			rewards: [{
+				id: "06A398BAB47F4FDC"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Slow and Steady"
+			tasks: [{
+				id: "0A94B9019C0C5758"
+				item: "l2hostility:curse_of_sloth"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			description: ["Gain increased attack that scales with enemy levels as well as immunity to many negative effects at the cost of increased difficulty."]
+			id: "5390E51F64F91AC6"
+			rewards: [{
+				id: "0275BCA70362729C"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "When Anger Becomes Power"
+			tasks: [{
+				id: "147521ED051FAEA7"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: ["Attacks may not surpass 90 percent of your maximum health."]
+			id: "205A59F0F515E87A"
+			rewards: [{
+				id: "401DA6F9DCABBE14"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Life Ever Lingering"
+			tasks: [{
+				id: "35C6B2C044AF7227"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_life"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			description: ["Makes you permanently wet?"]
+			id: "7A828736803AC8D2"
+			rewards: [{
+				id: "51D80CD0ACFD5A35"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Crowned by the Deep"
+			tasks: [{
+				id: "3244B6E4D420D534"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_ocean"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.0d
+		}
+		{
+			description: ["Grants immunity to magic damage as well as a permanent cleanse effect."]
+			id: "139FECFBB7C27C72"
+			rewards: [{
+				id: "7F72CFE02B6AFA6D"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Blessing Eternal"
+			tasks: [{
+				id: "0B17788E870E7D4A"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_divinity"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			description: ["When an enemy attempts to apply a negative trait effect to you apply it to nearby enemies targetting you instead."]
+			id: "2A3343DCB3C20CA0"
+			rewards: [{
+				id: "72C1CA8F796010A4"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Relic of Reversal"
+			tasks: [{
+				id: "2AB6C20864E88112"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_reflection"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			description: ["Applies the incarceration effect to mobs within attack range when sneaking."]
+			id: "597AF5F03E40920F"
+			rewards: [{
+				id: "0ECEE9B6193F82C1"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Silver Shackles"
+			tasks: [{
+				id: "160BF9A652ECEEFA"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_incarceration"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.0d
+		}
+		{
+			description: ["This artifact causes attacks to damage both the equipment of your enemies and yourself."]
+			id: "55605CA788231A47"
+			rewards: [{
+				id: "6E4346B1E139DE42"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Corrosion's Caress"
+			tasks: [{
+				id: "0585314204A90098"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_corrosion"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -10.0d
+		}
+		{
+			description: ["Heals you for 5 percent of you max health each second."]
+			id: "18CBA1166AD4D5FA"
+			rewards: [{
+				id: "74E49150F9B00F5E"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Breath of Restoration"
+			tasks: [{
+				id: "7912AD9DD58BC0C2"
+				item: {
+					Count: 1
+					id: "l2hostility:ring_of_healing"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 18.0d
+		}
+		{
+			description: ["Makes your attacks inflict soul flame for 5 seconds based on the amount of traits the enemy has."]
+			id: "29E3C2F277C31454"
+			rewards: [{
+				id: "2FE78E2F59B818F6"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Pyre's Kiss"
+			tasks: [{
+				id: "23CD890F48AE5626"
+				item: "l2hostility:flaming_thorn"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 2.0d
+		}
+		{
+			description: ["Makes your attacks bypass all magical protection at the cost of obtaining no hositlity loot."]
+			id: "71F8F60575E850BD"
+			rewards: [{
+				id: "1637FC18C775FEB3"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Hand that Shatters Miracles"
+			tasks: [{
+				id: "6A05D6468406653D"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -10.0d
+		}
+		{
+			description: ["Your melee attacks will bypass the damage cooldown."]
+			id: "68C8CC5C6FD3E649"
+			rewards: [{
+				id: "4A065821AA5F3C17"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Fists of Fury"
+			tasks: [{
+				id: "11943D917F79DED5"
+				item: "l2hostility:platinum_star"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -2.0d
+		}
+		{
+			description: ["This artifact grants extra ring and charm slots."]
+			id: "1BF781308AB8D8B6"
+			rewards: [{
+				id: "199F9DCDC991D496"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Grasp of Eternity"
+			tasks: [{
+				id: "6276BAF8CFDFF973"
+				item: "l2hostility:infinity_glove"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			description: ["Guaranteed trait symbol drops at the cost of enemies gaining all the traits for their level ."]
+			id: "3392F747F200EF19"
+			rewards: [{
+				id: "052AC4AA4030E58A"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Seat of Shadows"
+			tasks: [{
+				id: "53E030C52019E10B"
+				item: "l2hostility:abyssal_thorn"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -6.0d
+		}
+		{
+			description: ["Protects your level one buffs from being cleansed by the enemy."]
+			id: "0AD74BD5763E180C"
+			rewards: [{
+				id: "7155CA25ED26927F"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Defying Darkness"
+			tasks: [{
+				id: "06BCB8C3FAC38C2E"
+				item: "l2hostility:divinity_cross"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 18.0d
+		}
+		{
+			description: ["Enemies can no longer adapt to your attacks."]
+			id: "5CE8BF5DCE167BAE"
+			rewards: [{
+				id: "499BDCA184B81CB6"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Halo's Gift"
+			tasks: [{
+				id: "1C7412DDC4F23771"
+				item: "l2hostility:divinity_light"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 14.0d
+		}
+		{
+			description: ["This artifact grants extra head slots."]
+			id: "2F255DE45EA9CBCD"
+			rewards: [{
+				id: "4061DB633738BC4E"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Gaze beyond Veils"
+			tasks: [{
+				id: "2007C4EB4EB6B3EC"
+				item: "l2hostility:oddeyes_glasses"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -6.0d
+		}
+		{
+			description: ["This item grants extra back slots."]
+			id: "1F1482084A2E1164"
+			rewards: [{
+				id: "24A67B7563E309DF"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Triad Mantle"
+			tasks: [{
+				id: "72F9E8EA51F8759A"
+				item: "l2hostility:triple_strip_cape"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -2.0d
+		}
+		{
+			description: ["When a negative trait is applied to you this artifact will cleanse and transfer it to nearby enemies targetting you at the cost of extra difficulty."]
+			id: "7BD1F35903EB3EC9"
+			rewards: [{
+				id: "655CD11791CE0CA5"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Word of Ruin"
+			tasks: [{
+				id: "5524DF00E9F30364"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 4.0d
+		}
+		{
+			description: ["Unseals items afflicted with the seal trait effect."]
+			id: "370D72F51729888B"
+			rewards: [{
+				id: "08C6AB164EE37BFD"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Satchel of Secrets"
+			tasks: [{
+				id: "0506BCFCF4FD7AD9"
+				item: {
+					Count: 1
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 20.0d
+		}
+		{
+			description: ["Grants increased loot drop chance per level and increased hostility loot at the cost of extra difficulty."]
+			id: "323F9FF66FF8F65E"
+			rewards: [{
+				id: "1121512CC16378AF"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Hoard of the Horror"
+			tasks: [{
+				id: "4CA1F24915CBC370"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 20.0d
+		}
+	]
+	title: "{\"text\":\"Artifacts of Endless War\",\"color\":\"#6E159B\"}"
+}

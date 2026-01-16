@@ -1,0 +1,110 @@
+{
+	id: "1B4A2966ED068B73"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			count: 10
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:ancient_material"
+			}
+		}
+		{
+			count: 20
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheotic_additions:esoteric_material"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 10
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheotic_additions:esoteric_material"
+			}
+		}
+		{
+			count: 20
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:ancient_material"
+			}
+			weight: 0.25f
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:ancient_material"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 5
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheotic_additions:esoteric_material"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 7
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheotic_additions:esoteric_material"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 7
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:ancient_material"
+			}
+			weight: 3.0f
+		}
+	]
+	title: "Reforge Mat"
+}

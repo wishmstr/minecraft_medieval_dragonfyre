@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "KingFran",
+      "uniqueId": "36cc4242-d1cb-4990-91ce-4a4041672a38"
+    },
+    "time": 1738450819307,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/LdQYViMEbW"
+    }
+  }
+]

@@ -1,0 +1,1024 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 3.0d
+	filename: "age_of_dragons"
+	group: "3B0CDB8395E59365"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "iceandfire:dragonarmor_gold_head"
+	}
+	id: "0C7C5F4FF6A7BCA4"
+	images: [{
+		height: 20.0d
+		image: "iceandfire:textures/logo.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -52.5d
+		y: -8.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0D904A47C1EDA7DE"]
+			description: [
+				"&9Knowlwedge &fkeeps you alive."
+				""
+				"&aA Bestiary &fcontains information about most of the &1magical &fcreatures you may encounter possibly granting you a combat advantage."
+				""
+				"&2The manuscripts &fyou will need can be found within chests in caves , dragon roosts or graveyards."
+			]
+			id: "4B4BF1FF89C31ACA"
+			rewards: [
+				{
+					count: 3
+					id: "7299F62876C24CA1"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "36DFA7C739CDBDD9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Prudent Preparation"
+			tasks: [{
+				id: "0E57F02FA3552258"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B4BF1FF89C31ACA"]
+			description: ["&aThe Bestiary Lecturn &fwill allow you add chapters to your &abestiary &fby combining it with &2manuscripts."]
+			id: "2FB1578EBE95B902"
+			rewards: [
+				{
+					count: 2
+					id: "7A6E9B44FD2B15FC"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "325A6880180775E1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Studious and Strong"
+			tasks: [{
+				id: "3E2E13EB16A9A7E6"
+				item: "iceandfire:lectern"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -1.5d
+		}
+		{
+			description: ["Silver is a metal that can be found on the same level as gold and can be used to create tools and armor which are especially effective against undead."]
+			id: "57F0E543419B8D21"
+			rewards: [
+				{
+					count: 2
+					id: "6FDBC20CB3A8F2A4"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "035767A2CEC9A6C6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Shining Silver"
+			tasks: [{
+				id: "410220ADE134FB98"
+				item: "iceandfire:silver_ingot"
+				type: "item"
+			}]
+			x: -34.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42821297260C128F"]
+			description: [
+				"&bThe Ice dragon &dsummoning crystal &fis an item that can teleport a &bice dragon &fto you. To do so, use on a &ddragon &fto bind it and after, use when bound to teleport the &ddragon ."
+				""
+				"After usage, the crystal will be unbound to the &ddragon &fand therefore you must use on the &ddragon &fagain to rebind the &dcrystal. "
+				""
+				"&dCrystals &fare bound to a &ddragon &fwhen a &0black &ddragon &fsilhouette appears on the &dcrystal. "
+			]
+			id: "7799076A92B03CA8"
+			subtitle: "Summoning Winter"
+			tasks: [{
+				id: "554C719AFFE66CE9"
+				item: "iceandfire:summoning_crystal_ice"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["32E7D93BB699594E"]
+			description: [
+				"&9The lightning dragon &dsummoning crystal &fis an item that can teleport a &9lightning dragon &fto you. To do so, use on a &ddragon &fto bind it and after, use when bound to teleport the &ddragon ."
+				""
+				"After usage, the crystal will be unbound to the &ddragon &fand therefore you must use on the &ddragon &fagain to rebind the &dcrystal. "
+				""
+				"&dCrystals &fare bound to a &ddragon &fwhen a &0black &ddragon &fsilhouette appears on the &dcrystal. "
+			]
+			id: "4E213C9D6719A0E0"
+			subtitle: "Summoning Thunder"
+			tasks: [{
+				id: "6160CD9116198965"
+				item: "iceandfire:summoning_crystal_lightning"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"Pixies are small magical creatures that glow in the dark and may attempt to steal your items."
+				""
+				"They are found in pixie villages and can be captured  with a jar or befriended with cake."
+				""
+				"They also give special buffs respective to thier colour."
+			]
+			icon: "iceandfire:pixie_wings"
+			id: "49B6952745916F6A"
+			rewards: [{
+				count: 3
+				id: "5D887D85260D6D54"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Pixie Pals"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_pixie"
+				criterion: ""
+				id: "24872C59A09A9E75"
+				title: "Befriend a pixie"
+				type: "advancement"
+			}]
+			title: "Pixies"
+			x: -27.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"Hippocampi are aquatic creatures with the head of a horse"
+				"and the body of a fish which can be found swimming within the ocean and deep ocean biomes."
+				""
+				"They can be tamed with kelp and bred with prismarine crystals."
+			]
+			id: "42115CD2D6BECADC"
+			rewards: [{
+				count: 4
+				id: "2B41D226DD16BE97"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Hiring Hippocampi"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippocampus"
+				criterion: ""
+				id: "1DB5D2D3D459D267"
+				title: "Tame a Hippocampus"
+				type: "advancement"
+			}]
+			x: -30.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"Hippogryphs are half eagle half horse hybrids that usually live on mountains."
+				""
+				"They can be tamed with 8 rabbit feet and bred with rabbit stew."
+			]
+			id: "1A46CB18C1EBA3CC"
+			rewards: [{
+				count: 5
+				id: "134DCA22791A3444"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Hippogryph come Home"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "1E747C5F42377363"
+				title: "Tame a Hippogryth"
+				type: "advancement"
+			}]
+			title: "Hippogryph"
+			x: -24.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7799076A92B03CA8"
+				"6B949CDB464620FC"
+				"4E213C9D6719A0E0"
+			]
+			description: [
+				"There is a &0dark fortress &flurking within &bcold &abiomes &fthat houses great rewards but equally &cpowerful &ffoes."
+				""
+				"In order to gain entry you will need to obtain the &3gravemasters key  &fwhich drops from &0dread liches."
+				""
+				"&0Dread liches &fcan also be found within &bcold biomes."
+			]
+			id: "08F7CB6DC5642787"
+			rewards: [
+				{
+					id: "7468B92F3D82023D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2B04B43435E48F3F"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			subtitle: "Gravemaster's Key"
+			tasks: [
+				{
+					entity: "iceandfire:dread_lich"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "iceandfire:lich_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "72DCFC131DF7EC57"
+					title: "Kill a Dread Lich"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7922A2BC301EA5C2"
+					item: "iceandfire:dread_key"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["08F7CB6DC5642787"]
+			description: [
+				"This &0impenetrable fortress &fmust be accessed with the &3gravemasters key. "
+				""
+				"Deep within you will find a partially incomplete &bice dragon forge &fwhich can be repaired and used to make &5dragonsteel."
+			]
+			icon: "iceandfire:dread_stone_face"
+			id: "739E8ACF6D6CB5F2"
+			rewards: [
+				{
+					id: "5F292C579BB63842"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "7D4F6D1281DBE86A"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "The Dark Fortress"
+			tasks: [{
+				icon: "iceandfire:dread_stone_face"
+				id: "7C87A92E61450D82"
+				structure: "iceandfire:mausoleum"
+				title: "Find the Mausoleum"
+				type: "structure"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"&6Fire dragons &fcan be recognised by thier colours which range from fiery red , emerald green , bold yellow or smoky black."
+				""
+				"&6Fire dragons &fusally linger around any &abiome &fabove -0.5 degrees in temperature except jungles, savannahs and badlands. "
+				""
+				"Stages 1-3 prefer roosts on the surface , whilst stages 4-5 lurk in caverns underground."
+			]
+			id: "3581698345B96E17"
+			rewards: [
+				{
+					count: 35
+					id: "22F00EAD2A84A156"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "7450BD6A4ACA2673"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			subtitle: "Wrath of the Inferno"
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_red_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "3843065006911AB3"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slay Fire Dragons"
+			x: -22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"&9Lightning dragons &fcan be recognised by their colours which range from amethyst purple, dark black copper brown or electric blue."
+				""
+				"&9Lightning dragons &fcan only be found in jungle , savannah and badlands &abiomes &fand are nocturnal creatures."
+				""
+				"Stage 1-3 &9lightning dragons &fare usually found in roosts on the surface whilst stage 4-5 are found underground in caverns."
+			]
+			id: "5FDFC696623E2BDA"
+			rewards: [
+				{
+					count: 45
+					id: "4D0674338F30C2BA"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "2B7FBFDB9880C52E"
+					type: "xp_levels"
+					xp_levels: 45
+				}
+			]
+			subtitle: "Wrath of Thunder"
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_electric_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "3AE87D2B3EFBA41D"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slay Lightning Dragons"
+			x: -22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"&bIce dragons &fcan be recognised by thier colours which range from icy blue , gem blue , silver white or snowy white."
+				""
+				"&bIce dragons &fcan usually be found in &bcold &abiomes &franging from -0.5 degrees in temperature and below. Stage 1-3 dragons prefer roosts on the surface , whilst stage 4-5 dragons lurk in subterrean caverns ."
+			]
+			id: "76EA98DB3C884C58"
+			rewards: [
+				{
+					count: 40
+					id: "0CEEB3D6E7A512C6"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "76FD1250F68AED65"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			subtitle: "Wrath of Winter"
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: {
+					Count: 1
+					id: "iceandfire:armor_silver_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "063654E3F5AD55FA"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Slay Ice Dragons"
+			x: -22.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["50D03004776882CB"]
+			description: [
+				"&6The fire dragon &dsummoning crystal &fis an item that can teleport a &6fire dragon &fto you. To do so, use on a &ddragon &fto bind it and after, use when bound to teleport the &ddragon ."
+				""
+				"After usage, the crystal will be unbound to the &ddragon &fand therefore you must use on the &ddragon &fagain to rebind the &dcrystal. "
+				""
+				"&dCrystals &fare bound to a &ddragon &fwhen a &0black &ddragon &fsilhouette appears on the &dcrystal. "
+			]
+			id: "6B949CDB464620FC"
+			subtitle: "Summoning Flame"
+			tasks: [{
+				id: "4AE6CAD3289F2838"
+				item: "iceandfire:summoning_crystal_fire"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"The cyclops is a giant humanoid creature that can usually be found in the cyclops cove and savannah biomes."
+				""
+				"It's eye can be damaged with projectiles to make the fight easier."
+			]
+			id: "415040716E8B4EDB"
+			rewards: [
+				{
+					count: 4
+					id: "1B78123C63F95128"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "34558B126CB464B6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Crucifying the Cyclops"
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: {
+					Count: 1
+					id: "iceandfire:cyclops_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "115BFF6F087413AD"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Cyclops"
+			x: -30.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"&2The Gorgon &fis a half human half serpent creature capable of &8petrifying &fit's victims with it's gaze."
+				""
+				"It will also attempt to &apoison &fand weaken you. Should you fight it,  an equipped blindfold will greatly aid you."
+			]
+			id: "17CCA12D76F9F396"
+			rewards: [
+				{
+					count: 5
+					id: "0181A2922EDA0119"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "04A28B55D4434285"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Meddling with Medusa"
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: {
+					Count: 1
+					id: "iceandfire:gorgon_head"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "794DCB30E0BD9903"
+				title: "The Gorgon"
+				type: "kill"
+				value: 1L
+			}]
+			x: -27.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2FB1578EBE95B902"]
+			description: [
+				"&2The Hydra &fis a powerful multiheaded serpent which can be found in &2the hydra lair &fexclusive to swamp &abiomes."
+				""
+				"It is recommended to fight it with &6fire &fdamage to avoid it regenerating and growing new heads."
+			]
+			icon: "iceandfire:hydra_skull"
+			id: "0116C409C773F4A2"
+			rewards: [
+				{
+					count: 6
+					id: "572D709AF24A1DB4"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "2418F85D72AE177A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Heads and Horrors"
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:hydra_skull"
+				id: "3C99AD7A015DC03C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "The Hydra"
+			x: -24.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"76EA98DB3C884C58"
+				"3581698345B96E17"
+				"5FDFC696623E2BDA"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Wild &ddragons &fcannot be tamed. However upon slaying one you may obtain an egg that you can hatch to tame one for yourself."
+				""
+				"&6Fire dragon eggs &fmust be hatched in fire or lava."
+				""
+				"&bIce dragon eggs &fmust be hatched in water surrounded by ice."
+				""
+				"&9Lightning dragon &feggs must be hatched exposed to rain."
+			]
+			id: "2B2CFA2D079B5332"
+			rewards: [
+				{
+					count: 5
+					id: "11C5FEEE22B509A8"
+					item: "iceandfire:dragon_meal"
+					type: "item"
+				}
+				{
+					id: "2E29C7350A97B93F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Mother of Dragons"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+				id: "6C9A7B785B3842F0"
+				title: "Tame a Dragon"
+				type: "advancement"
+			}]
+			title: "Tame a Dragon"
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Long after the deaths of &6Cisco &fand &1the mysterious hero &fwho helped him defeat &4Fell King Arthas, &fthe  conflict continued between the descendants of &4Arthas&f and &6Cisco."
+				""
+				"The conflict lasted for hundreds of years before &6Cisco's &fdescendant &cArthur &fmade a bold move in marrying &4Arthas' &fdescendant &bSylvi &fcombining their bloodlines to end the conflict."
+			]
+			icon: {
+				Count: 1
+				id: "cisco_mod:fallen_hero_armor_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "290D9D572A5D6C04"
+			rewards: [{
+				id: "29571EE51F832853"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			shape: "embellish"
+			size: 4.0d
+			subtitle: "End of An Era"
+			tasks: [{
+				id: "54FE38A7CC3A8260"
+				title: "Fallen Heroes"
+				type: "checkmark"
+			}]
+			x: -42.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["290D9D572A5D6C04"]
+			description: [
+				"&cArthur &fand &bSylvi's &ason &fwould inherit a power so great that &ahe &fcould warp reality and bend time itself. &aHe &fwould use his power to unite all the known realms under his fair and just rule."
+				""
+				"He lived for hundreds of years de-aging himself when he got too old increasing the chaotic &dtemporal energy &fwithin himself.."
+				""
+				"This however would impact anyone who got too close to him stealing thier &1\"time\" &fand causing them to rapidly age eventually into dust."
+				""
+				"This made &ahim &fseverly lonely and one day leaving instructions on how to rule to his heir &ahe &fflew up into the sky and released all the &dtemporal energy &fback into the world ending &ahis &fown life in the process."
+			]
+			id: "292408BF95DC3F81"
+			rewards: [{
+				id: "33829429F3030FF4"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			size: 4.0d
+			subtitle: "Sovereign Sleeps"
+			tasks: [{
+				id: "764B012760F10FF4"
+				title: "Alexander"
+				type: "checkmark"
+			}]
+			x: -38.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["292408BF95DC3F81"]
+			description: [
+				"The released &5temporal energy &fwould have disastrous effects on the world empowering once docile &1magical &fcreatures , resurrecting ancient beasts, empowering existing hostile creatures and creating &8pockets underground &fwhere time would behave differently."
+				""
+				"One such &1magical &fbeast was the &dDragon. &fOnce passive docile creatures they became aggresive and began to hunt humans attacking thier settlements."
+				""
+				"With the &cpower &fin the blood of humans diluted and weakened through the ages none could stand against the threat they posed."
+				""
+				"Until.."
+				""
+				" "
+			]
+			icon: "iceandfire:dragon_skull_fire"
+			id: "0D904A47C1EDA7DE"
+			rewards: [{
+				id: "11AF4AF07B165489"
+				item: "skilltree:wisdom_scroll"
+				type: "item"
+			}]
+			size: 4.0d
+			subtitle: "Age of Dragons"
+			tasks: [{
+				id: "23CAD27ED182E2BF"
+				title: "Draconic Era"
+				type: "checkmark"
+			}]
+			x: -34.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B2CFA2D079B5332"]
+			description: ["The &aeye &fof the &9lightning dragon &fcan be crafted using &9lightning  dragon &4blood &fand &5ender pearls &fand used to locate &9lightning dragons &fin the same way you would locate a &2stronghold."]
+			id: "32E7D93BB699594E"
+			rewards: [
+				{
+					count: 2
+					id: "762CA4CCEC4C2E8A"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F1094BA3CBECBDD"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Seeking Thunder"
+			tasks: [{
+				id: "308FF06FCEC2CF89"
+				item: "eyesoficeandfire:eye_of_lightning_dragon"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B2CFA2D079B5332"]
+			description: ["The &aeye &fof the &6fire dragon &fcan be crafted using &6fire  dragon &4blood &fand &5ender pearls &fand used to locate &6fire dragons &fin the same way you would locate a &2stronghold."]
+			id: "50D03004776882CB"
+			rewards: [
+				{
+					count: 2
+					id: "0690CAA363506F49"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07337BC13F0B8C54"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Seeking Flame"
+			tasks: [{
+				id: "101FED69155AE35A"
+				item: "eyesoficeandfire:eye_of_fire_dragon"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B2CFA2D079B5332"]
+			description: ["The &aeye &fof the &bice dragon &fcan be crafted using &bice  dragon &4blood &fand &5ender pearls &fand used to locate &bice dragons &fin the same way you would locate a &2stronghold."]
+			id: "42821297260C128F"
+			rewards: [
+				{
+					count: 2
+					id: "66E0803445C28E70"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D92AB24E940CC01"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			subtitle: "Seeking Winter"
+			tasks: [{
+				id: "502B17AE6746D4FF"
+				item: "eyesoficeandfire:eye_of_ice_dragon"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2B2CFA2D079B5332"]
+			description: [
+				"This relic can be used to command tamed &ddragons&f to wander stay or follow you."
+				""
+				"It can also be set a home for tamed &ddragons."
+			]
+			id: "630C84A0FD01DD37"
+			rewards: [
+				{
+					count: 3
+					id: "6B274F190ABBFBC9"
+					item: "iceandfire:dragon_meal"
+					type: "item"
+				}
+				{
+					id: "6917BC1FFB2B4579"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "0DC0774E7CEE6779"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Dohaeras !"
+			tasks: [{
+				id: "0654F0B4442C66E2"
+				item: "iceandfire:dragon_stick"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["739E8ACF6D6CB5F2"]
+			description: [
+				"Once you have completed a &5dragonforge &fyou may begin crafting &6dragonsteel &fby placing &ddragon &4blood &0within &5the forge &fand having a stage 3 - 5 &ddragon&f use thier breath attack on it."
+				""
+				"&6Dragonsteel &fcan be used to craft powerful tools and armor that will aid you in slaying even more powerful &5dragons."
+			]
+			id: "65747B80333E3613"
+			rewards: [
+				{
+					id: "571A1A92AC35D34C"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "54FB36469C75AC76"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "03B652FC4296B21F"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Forged in Flame"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+				id: "7ED29B6FBE5EAFFC"
+				title: "Craft Dragonsteel"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65747B80333E3613"]
+			description: [
+				"&5Dreadsteel &fis the most powerful material that can be forged to combat &ddragons."
+				""
+				"Armor forged with &5dreadsteel &fprovide incredible defense and resistances whilst weapons forged in &5dreadsteel &fare unmatched in lethality."
+			]
+			id: "2E78225F6244BF7A"
+			rewards: [{
+				id: "064DA2612B6C78A6"
+				item: "dreadsteel:dreadsteel_ingot"
+				type: "item"
+			}]
+			subtitle: "Dreadforged Steel"
+			tasks: [{
+				id: "756F90109393894C"
+				item: "dreadsteel:dreadsteel_ingot"
+				type: "item"
+			}]
+			title: "Craft dreadsteel"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E78225F6244BF7A"]
+			description: ["&5Dreadsteel Armor &fprovides immunity to damage from &6fire &f,&9lightning &fand &bspikes &fmaking it especially good against &ddragons."]
+			id: "5129A01A2DC55BB4"
+			rewards: [
+				{
+					id: "589621EE1A0F4069"
+					item: "dreadsteel:kit_white"
+					type: "item"
+				}
+				{
+					id: "020C6928B0139C69"
+					item: "dreadsteel:kit_black"
+					type: "item"
+				}
+				{
+					id: "63E04F55C92BAF66"
+					item: "dreadsteel:kit_bronze"
+					type: "item"
+				}
+			]
+			subtitle: "Dreadknight"
+			tasks: [
+				{
+					id: "7A1321EA169CF617"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_helmet"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "500551351FA91A18"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_chestplate"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "004088B1025FD6FA"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_leggings"
+						tag: {
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10E22C2F5BE09B4D"
+					item: {
+						Count: 1
+						id: "dreadsteel:dreadsteel_boots"
+						tag: {
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft Dreadsteel Armor"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2E78225F6244BF7A"]
+			description: ["This weapon is capable of firing armor piercing projectiles which can easily keep up with dragons flying and high speeds."]
+			id: "031859030D60C602"
+			rewards: [{
+				count: 5
+				id: "5A6F6DAA184804B3"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Dreadforged Scythe"
+			tasks: [{
+				id: "53E40ADAF723CBB9"
+				item: {
+					Count: 1
+					id: "dreadsteel:dreadsteel_scythe"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2E78225F6244BF7A"]
+			description: ["This shield incinerates incoming projectiles and burns melee attacks when blocking."]
+			id: "635DD0DAC9CF17D5"
+			rewards: [{
+				count: 5
+				id: "6A6E0E7EFC9E48CD"
+				item: "cisco_mod:champion_coin"
+				type: "item"
+			}]
+			subtitle: "Dreadforged Shield"
+			tasks: [{
+				id: "3ADDBB1849CFA755"
+				item: {
+					Count: 1
+					id: "dreadsteel:dreadsteel_shield"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	title: "{\"text\":\"Age of Dragons\",\"color\":\"#790C0C\"}"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "###",
+    "#A#",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blaze_rod"
+    },
+    "A": {
+      "item": "cisco_mod:divine_core"
+    },
+    "B": {
+      "item": "cisco_mod:tainted_talisman"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:cisco_ultra_gate"
+}

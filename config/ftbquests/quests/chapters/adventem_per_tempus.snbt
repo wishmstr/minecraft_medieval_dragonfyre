@@ -1,0 +1,1900 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 3.0d
+	filename: "adventem_per_tempus"
+	group: "3B0CDB8395E59365"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "alexscaves:cave_codex"
+		tag: {
+			CaveBiome: "alexscaves:primordial_caves"
+		}
+	}
+	id: "0A5525F3C5451E7B"
+	images: [{
+		height: 15.0d
+		image: "alexscaves:textures/misc/mod_logo.png"
+		rotation: 0.0d
+		width: 15.0d
+		x: -10.5d
+		y: -0.5d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["137369684C76C395"]
+			description: [
+				"One of the ramifications of &aAlexander's &dTemporal &cDetonation &fwas the creation of small underground pockets of &dtime."
+				""
+				"Different Era's throughtout history  could be found perfectly preserved within caverns with all thier respective flora and fauna on display."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:clock"
+			}
+			id: "0FD14512C4901D04"
+			rewards: [{
+				count: 2
+				id: "6667CE327F278066"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Pockets of Time"
+			tasks: [{
+				id: "382F5BE8600B81DC"
+				title: "Temporal Distortion"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Once you have found the underground cabin search within it for the items  neccesary to begin your journey."]
+			id: "0741942A0CF808E5"
+			rewards: [{
+				count: 5
+				id: "1BB41EE9755DADE9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Searching for Supplies"
+			tasks: [
+				{
+					id: "45479C715B1496AC"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+				{
+					advancement: "alexscaves:alexscaves/cave_tablet"
+					criterion: ""
+					id: "70BA3612788F86FB"
+					title: "Obtain a Cave tablet"
+					type: "advancement"
+				}
+				{
+					id: "3D4899225CA91DD7"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			title: "Obtain the neccesary equipment"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0741942A0CF808E5"]
+			description: [
+				"It may be benificial to your journey to gain combat experience from every era."
+				""
+				"To begin your journey you will need to find the underground cabin once used coincidentally by a scholar also named alexander."
+				""
+				"Within will be the equipment needed to locate the caves."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:pewen_hanging_sign"
+			}
+			id: "137369684C76C395"
+			rewards: [{
+				count: 4
+				id: "06D8D583EA7C68FB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Adventure through Time"
+			tasks: [{
+				icon: "alexscaves:pewen_hanging_sign"
+				id: "2F2F4F2C7F021728"
+				structure: "alexscaves:underground_cabin"
+				title: "Find The Underground Cabin"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07B085B983D1332D"]
+			description: [
+				"Once you find a spelunkery table you will need to inset a relevant tablet and a piece of paper then attempt to decipher the tablet."
+				""
+				"After finding a word three times you will obtain a cave codex respective to the tablet used."
+			]
+			id: "0008DBE99D0FA5FE"
+			rewards: [{
+				count: 5
+				id: "5161F757C1C5CF62"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 5.0d
+			subtitle: "The Spelunkery Table"
+			tasks: [{
+				icon: "alexscaves:spelunkery_table"
+				id: "78DEBDA7E78CBEFA"
+				observe_type: 0
+				timer: 0L
+				title: "Find the Spelunkery Table"
+				to_observe: "alexscaves:spelunkery_table"
+				type: "observation"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0741942A0CF808E5"]
+			description: [
+				"After a obtaining a cave codex you may use it craft a map by surrounding it with paper in a crafting table."
+				""
+				"This will create a map that will point you in the direction of that cave."
+			]
+			id: "07B085B983D1332D"
+			rewards: [{
+				count: 4
+				id: "1D517C2373BC8066"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "Crafting a Cave Map "
+			tasks: [{
+				advancement: "alexscaves:alexscaves/cave_map"
+				criterion: ""
+				id: "37A9EC349ED2C7B8"
+				title: "Craft a Cave Map"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The primordial cave is a region suspended in the prehistoric era."
+				""
+				"Plants and creatures thought to be lost to time roam this cavern freely."
+			]
+			id: "1554C3B1C7193C51"
+			rewards: [
+				{
+					count: 3
+					id: "754A0A5D990D1E6F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "53B5E764CCD95242"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 5.0d
+			subtitle: "Prehistoric Places "
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				icon: "alexscaves:flytrap"
+				id: "4C0FF33171E6557F"
+				title: "Visit the Primordial Cave"
+				type: "biome"
+			}]
+			x: 15.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2FAED2E6F7B65282"]
+			description: ["The Amber Monolith when activated will replinish mobs killed in the area."]
+			id: "6DD05439A53758C5"
+			tasks: [{
+				id: "3DE59125265A1C51"
+				item: "alexscaves:amber_monolith"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1554C3B1C7193C51"]
+			description: [
+				"Subterrandon are ancient winged creatures powerful enough to carry an individual."
+				""
+				"It is believed that ancient humans tamed these creatures and used them for transportation."
+				""
+				"They can be tamed with raw trilocaris."
+			]
+			id: "215703FC1615AC07"
+			rewards: [
+				{
+					id: "38F82C2210F47114"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "126AF096BDFCC5EE"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Ancient Flight"
+			tasks: [
+				{
+					advancement: "alexscaves:alexscaves/tame_subterranodon"
+					criterion: ""
+					id: "354F0C8A59CAF840"
+					title: "Tame a Subterranodon"
+					type: "advancement"
+				}
+				{
+					id: "52D5540B28D5674D"
+					item: "alexscaves:trilocaris_tail"
+					type: "item"
+				}
+			]
+			title: "Tame a Subterranodon"
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1554C3B1C7193C51"]
+			description: ["The Tremorsaurus is a large and ferocious ancient beast that can provide you a formiddable challenge."]
+			id: "33DE110D96BBF2E3"
+			rewards: [
+				{
+					id: "52FAA8671AB3B890"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 6
+					id: "40D8A4B6901CA3DF"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Tangling with Tremorsaurus"
+			tasks: [{
+				entity: "alexscaves:tremorsaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:footprint_pottery_sherd"
+				}
+				id: "61EDF5EC79DD8536"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Slay Tremorsaurus"
+			x: 21.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1554C3B1C7193C51"]
+			description: [
+				"One Amber Curiosity has a very small chance to drop from amber when mined with a stone-tiered pickaxe or higher."
+				""
+				""
+				"A pickaxe enchanted with fortune will increase the chance of amber dropping an amber curiousity."
+			]
+			id: "2FAED2E6F7B65282"
+			rewards: [{
+				count: 4
+				id: "71DAFB6DCC0D4DC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F437DB1935B20F9"
+				item: "alexscaves:amber_curiosity"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1554C3B1C7193C51"]
+			description: ["The Relecheirus is a giant bird like dinosaur which when fed primordial soup will go into a frenzy ."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:dinosaur_nugget"
+			}
+			id: "7C2B59D7623E6903"
+			rewards: [
+				{
+					count: 2
+					id: "25DB105DEE781B1B"
+					item: "alexscaves:primordial_soup"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7824AE0F848CB2A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:relicheirus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:dinosaur_nugget"
+				}
+				id: "233603838BAA3372"
+				title: "Kill Relicheirus"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Slay Relicheirus"
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			description: [
+				"The magnetic cave is a region suspended in a futuristic electronic era."
+				""
+				""
+				"The technology within is far superior than that of our time but may be useful to a sharpened mind."
+			]
+			id: "2CD1643474611548"
+			rewards: [
+				{
+					count: 3
+					id: "056C8A2459125524"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "721DDDB057D69D7A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 5.0d
+			subtitle: "Majestic Magnetism"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				icon: "alexscaves:azure_magnet"
+				id: "75E2ECF54E4E253F"
+				title: "Find the Magnetic Cave"
+				type: "biome"
+			}]
+			x: 15.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["2CD1643474611548"]
+			description: ["These flying creatures are not hostile but will scan you and alert hostile mobs of your location."]
+			id: "50F7DC414439D885"
+			rewards: [
+				{
+					count: 7
+					id: "547BD028E154D484"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "708FA3B541C61258"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Nefarius Notor"
+			tasks: [{
+				entity: "alexscaves:notor"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:holocoder"
+				}
+				id: "2D3F1697FD71744A"
+				type: "kill"
+				value: 7L
+			}]
+			title: "Kill Notor"
+			x: 15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5214F8437728A5FE"]
+			description: ["The Galena Gauntlet is a useful device allowing its user to wield a weapon or tool at a distance."]
+			id: "7F752FC1838B0EFF"
+			rewards: [{
+				count: 5
+				id: "12B270E07C5C67D5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "The Galena Gauntlet"
+			tasks: [{
+				id: "2B2CB6F1844DF4B5"
+				item: {
+					Count: 1
+					id: "alexscaves:galena_gauntlet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2CD1643474611548"]
+			description: ["Teletors are powerful futuristic creatures capable of using thier magnetic abilities to wield weapons."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:quarry_smasher"
+			}
+			id: "5214F8437728A5FE"
+			rewards: [
+				{
+					count: 6
+					id: "54626B6FB24FE2F1"
+					item: "cisco_mod:champion_coin"
+					type: "item"
+				}
+				{
+					id: "377A60C59450AC81"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Magnetic Menace"
+			tasks: [{
+				entity: "alexscaves:teletor"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:quarry_smasher"
+				}
+				id: "58D1C107E84F563F"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Kill Teletors"
+			x: 19.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2CD1643474611548"]
+			description: ["The magnetron is a creature able to use it's magnetic abilities to create a body out of nearby blocks and metal items making it very deadly in combat."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:scarlet_magnet"
+			}
+			id: "0600B6A16DC78F7C"
+			rewards: [
+				{
+					count: 6
+					id: "138339C502A30643"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "57747984AC586E76"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Malevolent Magnetron"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:scarlet_magnet"
+				}
+				id: "0AFA01308C11BCE4"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Slay Magnetron"
+			x: 10.5d
+			y: -16.5d
+		}
+		{
+			description: ["The forlorn hollow is a mysterious region where the temporal detonation caused dark energy to take hold corrupting the area completely."]
+			id: "4F1B32CA37E2A101"
+			rewards: [
+				{
+					count: 3
+					id: "1F83DF87AFE1203F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7A9054CDE774BA76"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 5.0d
+			subtitle: "Darkness and Desolation"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:pure_darkness"
+				id: "69F02DBFFEA32EF0"
+				title: "Visit the Forlorn Hollow"
+				type: "biome"
+			}]
+			x: 37.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F1B32CA37E2A101"]
+			description: ["Vespers are corrupted bat like entities that will use thier swift flight to to make devasting aerial attacks against you."]
+			id: "04C8EF0D5E1EB54B"
+			rewards: [
+				{
+					id: "458A65B76DB59F7D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 6
+					id: "0C61B295BD94C82C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Vampiric Vessels"
+			tasks: [{
+				entity: "alexscaves:vesper"
+				icon: "alexscaves:vesper_wing"
+				id: "24DAFD949F79C6A4"
+				title: "Slay Vespers"
+				type: "kill"
+				value: 5L
+			}]
+			x: 43.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D9BA6A18760EE7"]
+			description: ["When the &0unholy ritual &fis performed using a &5gloomoth&f as a catalyst this &csinister wraith &fis born,"]
+			id: "406D833105080368"
+			rewards: [
+				{
+					count: 11
+					id: "3A8055C9F345A77C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3BA8E684801C3162"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Watcher Woes"
+			tasks: [{
+				entity: "alexscaves:watcher"
+				icon: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "43170D26C467AFDA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Watcher"
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F1B32CA37E2A101"]
+			description: [
+				"Underzealots are mole like cultists who reside in the forlorn hollows."
+				""
+				"In a group they are capable of performing a ritual to transform a gloomoth into a watcher or a vesper into a forsaken."
+			]
+			id: "46D9BA6A18760EE7"
+			rewards: [{
+				count: 5
+				id: "4F3589734EE7007E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Watching the Watcher"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/underzealot_sacrifice"
+				criterion: ""
+				id: "5123500A82BEF45C"
+				title: "Witness the Black Ritual"
+				type: "advancement"
+			}]
+			title: "Witness the Black Ritual"
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D9BA6A18760EE7"]
+			description: ["This unholy beast is created by the underzealots when they complete the dark ritual with a vesper catalyst."]
+			id: "4DC4475F8BD09678"
+			rewards: [
+				{
+					count: 11
+					id: "0AAFD7D7E069D9BA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2C456C1325766E5F"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Fighting the Forsaken"
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:pure_darkness"
+				id: "0FCB2C25D74D7637"
+				title: "Slay Forsaken"
+				type: "kill"
+				value: 1L
+			}]
+			x: 33.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4F1B32CA37E2A101"]
+			description: ["This dark bow imbues shot arrows with powerful dark magic to bypass immunities and rain down  volleys of shadow on enemies."]
+			id: "745009C6401BC53F"
+			rewards: [{
+				count: 5
+				id: "02625F279C48AD30"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "The Dreadbow"
+			tasks: [{
+				id: "7FF0AB3223FF3222"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1554C3B1C7193C51"]
+			description: [
+				"This &cinfernal monstrosity &flies sealed within the heart of &4volcanoes &fin the primordial caves."
+				""
+				"It can be summoned by dropping an &2ominous catalyst &finto one such &4volcano."
+			]
+			id: "42F38D5AB8011318"
+			rewards: [
+				{
+					count: 10
+					id: "54457452095E0676"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "08DC05636B64592A"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			size: 4.0d
+			subtitle: "Lava Laiden Luctructosaurus"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tectonic_shard"
+				}
+				id: "4ED3B6A1650E5BFB"
+				title: "Slay the Luctructosaurus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			description: [
+				"The toxic caves are a volatile area made inhospitable by the effects of the temporal detonation."
+				""
+				"Though it remains hostile to life remnants of futuristic technology lie within it's wastes waiting to be discovered."
+			]
+			id: "5E8BE41E8FBD5CB8"
+			rewards: [
+				{
+					count: 3
+					id: "4A6558D13E274076"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "782078303A0C8EB9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 5.0d
+			subtitle: "Poisonous Places"
+			tasks: [{
+				biome: "alexscaves:toxic_caves"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:toxic_paste"
+				}
+				id: "19AF4DABFD1998D7"
+				title: "Visit the Toxic Caves"
+				type: "biome"
+			}]
+			x: 35.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["5E8BE41E8FBD5CB8"]
+			description: ["These deadly creatures are able to irridiate you with their tongue attacks and also have a tendency to  toss acid filled drums."]
+			id: "027CBE32E8E02628"
+			rewards: [
+				{
+					count: 4
+					id: "2CDA61E0E249A20D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2C29FFED73DAA176"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Busting Brains"
+			tasks: [{
+				entity: "alexscaves:brainiac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:waste_drum"
+				}
+				id: "168E61D6021ECCF9"
+				title: "Kill Braniacs"
+				type: "kill"
+				value: 4L
+			}]
+			x: 32.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5E8BE41E8FBD5CB8"]
+			description: [
+				"These creeper variants are enhanced with nuclear technology."
+				""
+				"They take a longer time to prime themselves for detonation but cannot be interrupted once started creating a devastating nuclear explosion."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:nuclear_bomb"
+			}
+			id: "79BDEEE3A070CA62"
+			rewards: [
+				{
+					count: 4
+					id: "7D2D9FF754CFB62A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "241350B5A95DF4F0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Neutralising Nucleepers"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:nuclear_bomb"
+				}
+				id: "02D171EB6983CE40"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Kill Nucleepers"
+			x: 39.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5E8BE41E8FBD5CB8"]
+			description: [
+				"These undead cats can be used to repel nucleepers and cure the irridiated status effect."
+				""
+				"They can be tamed by being fed radgill."
+			]
+			id: "607259B9B14E9290"
+			rewards: [{
+				count: 4
+				id: "6D80248D6E958868"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Rearing Raycats"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/tame_raycat"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:radgill"
+				}
+				id: "6F5F359ADC6DA182"
+				title: "Tame a Raycat"
+				type: "advancement"
+			}]
+			x: 39.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["5E8BE41E8FBD5CB8"]
+			description: ["This futuristic weapon fires a beam of continuous energy damaging any creatures in it's path."]
+			id: "5A4F2A37CE2D7BDD"
+			rewards: [{
+				count: 5
+				id: "1934648B713E57C1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Rays of Radiation"
+			tasks: [{
+				id: "7102243E6A5AE1A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:raygun"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 33.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["5E8BE41E8FBD5CB8"]
+			description: [
+				"While primarily neutral these creatures will attack anyone affected by the irridiated effect."
+				""
+				"These creatures are capable of carrying hostile mobs to your location in an attempt to overwhelm you."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "alexscaves:cycad"
+			}
+			id: "1B951B417D8F664F"
+			rewards: [
+				{
+					count: 4
+					id: "1F787C49B84E8379"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5B251220BC537F2F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Greivous Gammaroaches"
+			tasks: [{
+				entity: "alexscaves:gammaroach"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:cycad"
+				}
+				id: "4434D0F3390DD077"
+				title: "Kill Gammaroach"
+				type: "kill"
+				value: 5L
+			}]
+			x: 30.0d
+			y: 18.5d
+		}
+		{
+			description: [
+				"The only underwater region affected by the temporal detonation. "
+				""
+				"It is afflicted by extreme darkness requiring the deepsight effect to navigate."
+			]
+			id: "66928DC47375D3B5"
+			rewards: [
+				{
+					count: 3
+					id: "1D6AF090D01875BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2C1851A910282073"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 5.0d
+			subtitle: "Alluring Abyss"
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:immortal_embryo"
+				}
+				id: "0BA0115120B6447C"
+				title: "Visit the Abysal Chasm"
+				type: "biome"
+			}]
+			x: 45.0d
+			y: -12.5d
+		}
+		{
+			description: [
+				"The temporal detonation has made this region into an area twisted by childlike fantasies."
+				""
+				"Everything in this area seems to be made of the sweetest candy attempting to diguise it's lethal nature."
+			]
+			id: "3474E47ECA6CBDC1"
+			rewards: [
+				{
+					count: 3
+					id: "708BA7F94498BF05"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "34DEF939BED42A43"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 5.0d
+			subtitle: "The Candy Cavern"
+			tasks: [{
+				biome: "alexscaves:candy_cavity"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:candy_cane_block"
+				}
+				id: "2518536FDB9B90CB"
+				title: "Visit the Candy Cavity"
+				type: "biome"
+			}]
+			x: 52.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3474E47ECA6CBDC1"]
+			description: ["This slimey monstrosity is made of pure caramel and secretes movement impeding patches of caramel when struck."]
+			id: "460E30869B32B76D"
+			rewards: [
+				{
+					count: 7
+					id: "726954610AB6F3C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "213DE4B68E9AF6D6"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Killing Caramel"
+			tasks: [{
+				entity: "alexscaves:caramel_cube"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:caramel"
+				}
+				id: "1201A875000A773D"
+				title: "Kill Caramel Cubes"
+				type: "kill"
+				value: 10L
+			}]
+			x: 52.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3474E47ECA6CBDC1"]
+			description: ["Caniacs are ferocious peppermint skeletons which charge down foes with it's thrashing arms."]
+			id: "5908CC1D7B2D95B3"
+			rewards: [
+				{
+					count: 6
+					id: "59895D50175EC647"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "534CEEB3A0D6FEA3"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Crazy Caniacs"
+			tasks: [{
+				entity: "alexscaves:caniac"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aether:candy_cane_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "6A4D1C4BE4DF6B84"
+				title: "Kill Caniacs"
+				type: "kill"
+				value: 7L
+			}]
+			x: 57.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3474E47ECA6CBDC1"]
+			description: ["These mini mechanical creepers launch bouncing gumballs at it's enemies."]
+			id: "6F4A9148EC4A6CEE"
+			rewards: [
+				{
+					count: 6
+					id: "24E558B7F2E14B54"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5245A17FC4CF8371"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Greivous Gumbeeper"
+			tasks: [{
+				entity: "alexscaves:gumbeeper"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:gumball_pile"
+				}
+				id: "69AA67FA516220BA"
+				title: "Kill Gumbeeper"
+				type: "kill"
+				value: 7L
+			}]
+			x: 52.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3474E47ECA6CBDC1"]
+			description: ["These evil witches cast harmful spells to damage explorers."]
+			id: "23B6E22F179B7FDF"
+			rewards: [
+				{
+					count: 6
+					id: "222BBA7D3CAE5843"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "79197F63AA60B2D7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Leery Licowitches"
+			tasks: [{
+				entity: "alexscaves:licowitch"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:licoroot_vine"
+				}
+				id: "277179748C0B21E8"
+				title: "Kill Licowitches"
+				type: "kill"
+				value: 7L
+			}]
+			x: 48.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3474E47ECA6CBDC1"]
+			description: ["This ravenous sack can be fed food items to store hunger and will slowly replinish that hunger when in your inventory."]
+			id: "2B058E98209CABA5"
+			rewards: [{
+				count: 5
+				id: "072BF9C61444BE03"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Ravenous Rucksack"
+			tasks: [{
+				id: "19DAC12325706FC6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sack_of_sating"
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3474E47ECA6CBDC1"]
+			description: ["This special food item can only be eaten when you are on 0 hunger, once eaten it records the information of the biome where it was consumed to be later used in the conversion crucible."]
+			id: "3C52DBCF31A38053"
+			rewards: [{
+				count: 5
+				id: "7593B1175B7AB108"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Building Biomes"
+			tasks: [{
+				id: "667F7C8333FDAFD1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:biome_treat"
+				}
+				type: "item"
+			}]
+			x: 57.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3C52DBCF31A38053"]
+			description: [
+				"This extraordinarily powerful item is capable of using the information recorded in a biome treat to convert another biome to the recorded biome."
+				""
+				"You will need to feed it blocks from that biome and can only have one converted biome active at a time."
+			]
+			id: "5A2CEB9CDAE648C1"
+			rewards: [{
+				count: 6
+				id: "70F7461F4544A425"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Cavernous Conversion"
+			tasks: [{
+				id: "7E2E140CF5FB058F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:conversion_crucible"
+				}
+				type: "item"
+			}]
+			x: 60.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["66928DC47375D3B5"]
+			description: ["These aquatic creatures are capable of using powerful water magic to defend themselves."]
+			id: "198C538DE3A14408"
+			rewards: [
+				{
+					count: 6
+					id: "36EA351C1D282A12"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "750A3AA55B54275E"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Marine Mages"
+			tasks: [{
+				entity: "alexscaves:deep_one_mage"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:bioluminesscence"
+				}
+				id: "771ACAC9986426E5"
+				title: "Kill Deep One Mages"
+				type: "kill"
+				value: 7L
+			}]
+			x: 49.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["66928DC47375D3B5"]
+			description: ["These creatures are usually found anchored and guarding a structure. They however will attack you on sight and may detonate themselves ."]
+			id: "7A4C19D5D37BAF89"
+			rewards: [{
+				count: 5
+				id: "590CC0195E7A5AEB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Maneavouring through Mines"
+			tasks: [{
+				entity: "alexscaves:mine_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:depth_charge"
+				}
+				id: "68B0AD35133B69EE"
+				title: "Kill Mineguardians"
+				type: "kill"
+				value: 3L
+			}]
+			x: 42.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["66928DC47375D3B5"]
+			description: ["These aquatic knights will ferociously defend themseves with melee attacks."]
+			id: "70C4BA8D3CB4C093"
+			rewards: [
+				{
+					count: 6
+					id: "71BF101CEEE11CB5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3003C7D08687BC6C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			subtitle: "Waterborn Warriors"
+			tasks: [{
+				entity: "alexscaves:deep_one_knight"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "0549DFD1E07FB33E"
+				title: "Kill Deep One Knights"
+				type: "kill"
+				value: 7L
+			}]
+			x: 39.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["66928DC47375D3B5"]
+			description: [
+				"This magical item will summon a group on deep ones to fight on your behalf."
+				""
+				"It must be obtained by trading with deep ones via the abyssal altar."
+			]
+			id: "1EB80A737C0458BA"
+			rewards: [{
+				count: 10
+				id: "4067465421A46AF8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Calling the Deep"
+			tasks: [{
+				id: "58C8DAF1FD120A61"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 42.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["66928DC47375D3B5"]
+			description: ["These aquatic creatures possess some sentience and while they may initially be hostile to you can be befreinded by trading them pearls upon an abyssal altar."]
+			id: "3C7CA42AFDA8EC22"
+			rewards: [
+				{
+					count: 4
+					id: "2D8B71950AF808D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "11718362CCD7CE80"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Deep Dwellers"
+			tasks: [{
+				entity: "alexscaves:deep_one"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				id: "7CA093C0A874BA1D"
+				title: "Kill Deep Ones"
+				type: "kill"
+				value: 4L
+			}]
+			x: 49.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["66928DC47375D3B5"]
+			description: ["These abyssal monstrosities feed on glowing objects and pose a significant threat to submarines."]
+			id: "5E66C47F3B7F5BCD"
+			rewards: [
+				{
+					count: 7
+					id: "7763F07D7EBD1649"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "53B77D8ECEDCD084"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Hunting Hullbreakers"
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:lanternfish"
+				}
+				id: "2CD46C383F3D7DE9"
+				title: "Kill Hullbreakers"
+				type: "kill"
+				value: 6L
+			}]
+			x: 46.5d
+			y: -19.5d
+		}
+	]
+	title: "{\"text\":\"Adventum Per Tempus\",\"color\":\"#EF500C\"}"
+}

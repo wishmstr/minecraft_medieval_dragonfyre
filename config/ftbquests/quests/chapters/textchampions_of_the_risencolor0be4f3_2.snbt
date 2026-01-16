@@ -1,0 +1,299 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textchampions_of_the_risencolor0be4f3_2"
+	group: "3B0CDB8395E59365"
+	icon: "legendary_monsters:eye_of_air"
+	id: "50F5956E47BA71EE"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"A massive skeletal dinosaur that stomps the ground, creating shockwaves and tail slams. "
+				""
+				"Found roaming &9the Soul Sand Valley &fin &cthe Nether."
+			]
+			icon: "legendary_monsters:skeletosaurus_egg"
+			id: "1F42D7C3A2431C43"
+			rewards: [{
+				count: 2
+				id: "1912CE0FFDCA87CB"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Splintering the Skeletosaurus"
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: "legendary_monsters:skeletosaurus_egg"
+				id: "0CDECC3CCBBE9237"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Skeletosaurus"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A warped mushroom beast that teleports between attacks and spreads spores. "
+				""
+				"Lurks in &bthe Warped Forest &fbiome of &cthe Nether."
+			]
+			id: "22463A6F9764AA59"
+			rewards: [{
+				count: 2
+				id: "18CEA8574DFCCD6B"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Fumigating the Fungusus"
+			tasks: [{
+				entity: "legendary_monsters:warped_fungussus"
+				icon: "legendary_monsters:warped_mushroom_cap_part"
+				id: "7C8660F4719712BE"
+				title: "Slay the Warped Fungussus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A powerful Endborne creature that teleports and inflicts “chorus infection” on wanderers. "
+				""
+				"Encountered deep in &dThe End."
+			]
+			id: "101340A065E59CD4"
+			rewards: [{
+				count: 3
+				id: "3A96FDB21D506986"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Silencing the Scent"
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: "legendary_monsters:void_entity_warper"
+				id: "465A4580A935CF5F"
+				title: "Slay the Enderscent"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"A deceptive mimic disguised as a normal shulker; levitates and pulls wanderers with gravity tricks. "
+				""
+				"Resides in Shulker Towers in &dthe End."
+			]
+			id: "4312DFFB55318A5B"
+			rewards: [{
+				count: 3
+				id: "6C95373E6E93076B"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Shattering the Shulker"
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: "legendary_monsters:large_shulker_shell"
+				id: "76260A17B6F47E5A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Shulker Mimic"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A hulking golem of ice and stone, summoning frost spikes and chilling winds. "
+				""
+				"Stalks snowy biomes like &bIce Plains or &3snowy taiga."
+			]
+			id: "2514003EB1314CEB"
+			rewards: [{
+				count: 3
+				id: "3B60EA8084786707"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Frosbitten Finale"
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:frostbitten_shield"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "28DC2312CC2A020C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Frostbitten Golem"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A jungle titan overrun with moss and roots, spreading poisonous clouds and regenerating in them."
+				""
+				"Emerges from the depths of dense &2jungle &fbiomes and within &aAncient Temples."
+			]
+			id: "27BA2DC0AD14FB6F"
+			rewards: [{
+				count: 3
+				id: "17F1C4CE93FF0187"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Crushing the Colossus"
+			tasks: [{
+				entity: "legendary_monsters:overgrown_colossus"
+				icon: "legendary_monsters:totem_of_moss"
+				id: "3A10E161FBA1F313"
+				title: "Slay the Overgrown Colossus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A horned, corrupted behemoth with wither like powers and brutal charges. "
+				""
+				"Guards &9Soul Fortress Remains&f in &cthe Nether."
+			]
+			id: "30F96A6A3154988D"
+			rewards: [{
+				count: 3
+				id: "0BE5515029AD8265"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Ashes of the Abomination"
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: "legendary_monsters:withered_horn"
+				id: "5E5D0FEF215C690C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Withered Abomination"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A sky colossus wielding thunder and laser storms, only vulnerable when its shoulders break. "
+				""
+				"Floats in &bsky structures &for cloud altitudes."
+			]
+			id: "4B4BEED69BBF9E45"
+			rewards: [{
+				count: 3
+				id: "4A56D87959FEFC58"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Culling Cumolonimbus"
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: "legendary_monsters:cloud_rod"
+				id: "0D2256E0CF46515D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Cloud Golem"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"An ancient armored monstrosity that punishes reckless attackers with crushing blows. "
+				""
+				"Awaits challengers in underground ruins and &2strongholds."
+			]
+			icon: "legendary_monsters:chiseled_ancient_dripstone_shard"
+			id: "3EDFDE7629FDAFCC"
+			rewards: [{
+				count: 3
+				id: "41AEA01D2F704B05"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "The Guardian's Grudge"
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: "legendary_monsters:chiseled_ancient_dripstone_shard"
+				id: "70F378F562876F78"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Ancient Guardian"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A cursed knight clad in netherite, switching into a golden phase mid battle, causes bleeding and stun effects. "
+				""
+				"Dwells in abandoned crypts and &0dark strongholds."
+			]
+			id: "39AFCAF488C48022"
+			rewards: [{
+				count: 3
+				id: "24097C00A2D09027"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Penance of the Possesed Paladin"
+			tasks: [{
+				entity: "legendary_monsters:posessed_paladin"
+				icon: "legendary_monsters:deactivated_knight_summoner"
+				id: "1BF544E7C07B58CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Possessed Paladin"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"A fiery, lizard like predator that thrives in heat, tail whipping and summoning fire. "
+				""
+				"Dwells near lava lakes and underground magma caverns within &cthe Nether."
+			]
+			id: "39A082DC316DF69A"
+			rewards: [{
+				count: 2
+				id: "284D329CB402C8E5"
+				item: "cisco_mod:champion_loot_bag"
+				type: "item"
+			}]
+			subtitle: "Eradicating the Eater"
+			tasks: [{
+				entity: "legendary_monsters:lava_eater"
+				icon: "legendary_monsters:lava_eaters_skin"
+				id: "459F96773E6567FC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Slay the Lava Eater"
+			x: -1.0d
+			y: -2.0d
+		}
+	]
+	title: "{\"text\":\"Beasts of Legend\",\"color\":\"#11EC3D\"}"
+}

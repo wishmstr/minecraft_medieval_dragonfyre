@@ -1,0 +1,263 @@
+{
+	id: "107BA34A14A78FC7"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:stal_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:strad_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:magnetic_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:chorus_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:aegis_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:solaris_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:noir_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:bolvar_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:cherry_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:clark_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:jellie_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:apple_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:red_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:chenet_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:mellohi_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:cristel_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "vinery:glowing_wine"
+				tag: {
+					Year: 0
+				}
+			}
+		}
+	]
+	title: "Wine Bottle Choice"
+}

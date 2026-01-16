@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    " # ",
+    "CAC",
+    " D "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glowstone_dust"
+    },
+	"A": {
+      "item": "minecraft:ender_pearl"
+    },
+	"C": {
+      "item": "minecraft:redstone"
+    },
+	"D": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:witch_gate_small"
+}

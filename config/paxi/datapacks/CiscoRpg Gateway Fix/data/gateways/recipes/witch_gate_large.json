@@ -1,0 +1,27 @@
+{
+  "type": "gateways:gate_recipe",
+  "group": "gateways",
+  "pattern": [
+    "#B#",
+    "BAB",
+    "CCC"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glowstone_dust"
+    },
+	"A": {
+      "item": "minecraft:nether_star"
+    },
+	"B": {
+      "item": "minecraft:redstone"
+    },
+	"C": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "gateways:gate_pearl"
+  },
+  "gateway": "gateways:witch_gate_large"
+}

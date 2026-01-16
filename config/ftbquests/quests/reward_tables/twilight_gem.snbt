@@ -1,0 +1,127 @@
+{
+	id: "440B827FE3DBDE3F"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:twilight/forest"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:the_nether/inferno"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:twilight/queen"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/archmage"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/ars_mana"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:mythic"
+					}
+					gem: "apotheosis:overworld/earth"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheotic_additions:artifact"
+					}
+					gem: "apotheotic_additions:modded/hearty"
+				}
+			}
+		}
+	]
+	title: "Twilight Gem"
+}

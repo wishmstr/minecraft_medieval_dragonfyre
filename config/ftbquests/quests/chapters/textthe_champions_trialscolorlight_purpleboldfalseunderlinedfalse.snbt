@@ -1,0 +1,2143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "textthe_champions_trialscolorlight_purpleboldfalseunderlinedfalse"
+	group: "3B0CDB8395E59365"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "rogues:arms_workbench"
+	}
+	id: "1211F609E4F653DD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In order to begin your specialisation you must choose a copy of your respective class manual. "
+				""
+				"Each manual holds ancient knowledge and techniques unique to its discipline whether it be warrior, rogue, archer, paladin, or priest."
+			]
+			icon: "rogues:arms_workbench"
+			id: "6020B7CC71BDDB17"
+			rewards: [
+				{
+					id: "044EF002A4E4989E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "248EB83343EAB1CB"
+					table_id: 6077979491663318212L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			subtitle: "Fates Forged"
+			tasks: [{
+				id: "5C1C6BCA8C9FF289"
+				title: "Click Checkmark to Complete"
+				type: "checkmark"
+			}]
+			title: "Path to Power"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6020B7CC71BDDB17"]
+			description: [
+				"Now that you’ve chosen your path and obtained your Class Manual, it’s time to unlock your true potential."
+				""
+				"To empower your manual with special abilities, you must use the Spellbinding Table. "
+				""
+				"These mystical tables can be found in village gazebos or crafted by hand. Surround it with bookshelves to boost its power."
+				""
+				"Place your Class Manual in the Spellbinding Table, select an ability, and bind it. Each ability enhances your skills and unlocks new strategies tailored to your class."
+			]
+			id: "0AA0F63D5C9FEA4B"
+			rewards: [
+				{
+					id: "31067177B52DED39"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					count: 5
+					id: "7B26AEDD426C28F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "The Art of Mastery"
+			tasks: [{
+				id: "5927F0CAF447048D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "spell_engine:spell_binding"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0AA0F63D5C9FEA4B"]
+			description: [
+				"Armed with the crossbow, shortbow or longbow &athe archer &fboasts devasting damage from range."
+				""
+				"Your class abilities will allow you to deal consistent ranged damage , slow enemies and unleash devasting arrow barrages all whilst maintaining a safe distance."
+				""
+				"&aArchery &ffocused equipment will boost your ranged damage and draw speed."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "archers:archer_spell_book"
+			}
+			id: "0BBB1887F92DF22C"
+			rewards: [{
+				count: 10
+				id: "3C4CEC2B0132F8DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Path of the Deadeye"
+			tasks: [
+				{
+					id: "5C2308122460701F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:archer_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "77C78B212C8A1DAE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:archer_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25F27ED1487CEAC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:archer_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "547A81755D782C90"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:archer_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38926DAC009EE697"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:archer_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D909B720270E839"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:composite_longbow"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AA0F63D5C9FEA4B"]
+			description: [
+				"Quick, agile, and lethal, the &4Rogue &fthrives in the shadows, striking fast and disappearing before enemies can react."
+				""
+				"Your class abilities grant you increased mobility, enhanced strikes and the power to stun nearby enemies."
+				""
+				"&4Rogue &ffocused equipment boost your speed, attack speed , and damage perfect for an elusive assassin who always hits where it hurts most."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "rogues:rogue_spell_book"
+			}
+			id: "5709B4D79D03B200"
+			rewards: [{
+				count: 10
+				id: "11A8F73BC5F34732"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Path of the Assasin"
+			tasks: [
+				{
+					id: "6178ACC7219FD90D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:rogue_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "69BB246A955C4388"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:rogue_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B02C9768705874E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:rogue_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "715EE6F87CE52924"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:rogue_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00556628050AEA79"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:rogue_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EDA2564A5366B7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:flint_dagger"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2115006A2625FB94"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:iron_sickle"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AA0F63D5C9FEA4B"]
+			description: [
+				"Fueled by rage and relentless aggression, &cthe Warrior&f thrives in the heart of battle."
+				""
+				"As a &cWarrior&f, your abilities focus on inflicting heavy damage reducing enemy armor and attack whilst boosting your speed and knockback resistance."
+				""
+				"Heavy melee weapons and armor are your allies, embrace the chaos and become the unstoppable force your enemies fear."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "rogues:warrior_spell_book"
+			}
+			id: "6AD469FE25CF7BEC"
+			rewards: [{
+				count: 10
+				id: "15E4AE488CFD6188"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Path of the Berserker"
+			tasks: [
+				{
+					id: "76F6B9587D394FCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:warrior_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "57DA06215153FE10"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:warrior_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54F5D0DC8F59ED7B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:warrior_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56C248BF4E154561"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:warrior_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B6B65CADB7B78EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:warrior_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "523CCDF7BC41414F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:stone_double_axe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AA0F63D5C9FEA4B"]
+			description: [
+				"Sworn to protect the innocent and vanquish evil, &ethe Paladin &fstands &fas a stalwart defender in the darkest of times."
+				""
+				"Wielding divine power and heavy weaponry, &ePaladins &fexcel in both offense and defense."
+				""
+				"Use your radiant abilities to smite and stun foes, shield yourself from attacks and heal your allies."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "paladins:paladin_spell_book"
+			}
+			id: "33E850DA9D2E8F13"
+			rewards: [{
+				count: 10
+				id: "25CD20DEE1B0A44B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Path of the Lightbringer"
+			tasks: [
+				{
+					id: "30FB0EDA3BD7F83B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:paladin_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "781C3F5BE2FD52C4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:paladin_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DF63B6D307B6A6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:paladin_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AA1AF7976D3FD19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:paladin_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D4F64D68C235842"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:paladin_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AF433BCA58B2052"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:wooden_great_hammer"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0AA0F63D5C9FEA4B"]
+			description: [
+				"Guided by sacred power, &6the Priest &fis the lifeline of any group, wielding blessings and divine magic to protect and restore."
+				""
+				"As a &6Priest&f, your strength lies not in brute force, but in your ability to sustain your allies."
+				""
+				"With your class abilities you wield the power of life and death. Your holy light can either heal freinds or decimate foes."
+				""
+				"&6Priest &fattuned gear will grant you quicker ability casts and boost healing spell power subsequently boosting the damage of your holy spells."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "paladins:priest_spell_book"
+			}
+			id: "35124F2BAC0D9777"
+			rewards: [{
+				count: 10
+				id: "625921688EA45497"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			subtitle: "Path of the Righteous"
+			tasks: [
+				{
+					id: "0604BD922E2C74AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:priest_spell_book"
+					}
+					type: "item"
+				}
+				{
+					id: "09BFA272543D905E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:priest_robe_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B7F0AA7BFA44B00"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:priest_robe_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B7C9B737D41EDBF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:priest_robe_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "530EE3ACA40D5657"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:priest_robe_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F323C661AE9C847"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:holy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49A8253D702FBE06"]
+			description: [
+				"You have walked the path of &athe Ranger &fsilent, swift, and deadly. But true mastery lies beyond skill alone."
+				""
+				"By forging &athe Master Ranger &fArmor, you ascend to the pinnacle of your class. "
+				""
+				"As a &aMaster Ranger&f, your connection with the wild deepens and your precision becomes second nature."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "archers:netherite_ranger_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "2495245E07D16646"
+			rewards: [
+				{
+					count: 15
+					id: "0F6F48B0B656BDE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0761F6409DD2E953"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "Master of the Hunt"
+			tasks: [
+				{
+					id: "70F0CAFEF98D236B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:netherite_ranger_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D68DF977D14348A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:netherite_ranger_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BC44706F65E3BC6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:netherite_ranger_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D5AE1D12A7729AE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:netherite_ranger_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Master Ranger"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BBB1887F92DF22C"]
+			description: [
+				"You have mastered the bow and honed your aim now it’s time to take the next step."
+				""
+				"By crafting and donning the &aRanger &fArmor, &fyou transcend the title of &aArcher &fand embrace the way of the wild."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "archers:ranger_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "49A8253D702FBE06"
+			rewards: [
+				{
+					count: 10
+					id: "0581F6E68F5ED0F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0AF8BE3667D9720B"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Whispering Wilds"
+			tasks: [
+				{
+					id: "2389D1D97201CE37"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:ranger_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "393A5533519591F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:ranger_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A5569C80EC2BD1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:ranger_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15B8EEF6AFE5F921"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "archers:ranger_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Ranger"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5709B4D79D03B200"]
+			description: [
+				"You've honed your agility, danced through danger, and struck from the shadows. Now, it's time to embrace your deadliest form."
+				""
+				"Craft &4the Assassin’s &fArmor to ascend beyond the &4Rogue &fbecoming a master of silent death."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "rogues:assassin_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5E6ABCB0E2525DA1"
+			rewards: [
+				{
+					count: 10
+					id: "04F77CD1DEFEB919"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "21D55D36055032F3"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Veil of Shadows"
+			tasks: [
+				{
+					id: "791561290ACBD8BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:assassin_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1014CC35579E0581"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:assassin_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33335158050FCF35"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:assassin_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "164A7C0452E43031"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:assassin_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Assasin"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E6ABCB0E2525DA1"]
+			description: [
+				"You've become more than just a whisper in the dark you are the unseen force that shapes fate. "
+				""
+				"As an &4Assassin, &fyou mastered stealth and precision. But now, the path of the &4Master Assassin &fawaits."
+				""
+				"Craft the &4Master Assassin’s &fArmor to transcend your former self and become one with the shadows."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "rogues:netherite_assassin_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "4C5E8E319BDBD222"
+			rewards: [
+				{
+					count: 15
+					id: "749CA52FDBECFF1A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "55B20E227F0EF796"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "One with the Shadows"
+			tasks: [
+				{
+					id: "05A57A7123141B41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_assassin_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DB74F5E662880E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_assassin_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F212DF595D506F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_assassin_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "160C1F5D32BDACB0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_assassin_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Master Assasin"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6AD469FE25CF7BEC"]
+			description: [
+				"The time for restraint has ended. The disciplined strikes of &cthe warrior &fgive way to the raw, untamed might of a &cBerserker. "
+				""
+				"Fueled by rage and driven by instinct, you no longer fight , you dominate."
+				""
+				"Craft &cthe Berserker’s &fArmor to embrace your fury."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "rogues:berserker_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "0A057E23984718D9"
+			rewards: [
+				{
+					count: 10
+					id: "71A53417EBC85062"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "12439F47C735C45C"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Unleashed Fury"
+			tasks: [
+				{
+					id: "54262D15980B0B96"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:berserker_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04226A79542E2C4F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:berserker_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0ED916D5E6624A27"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:berserker_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38ABFFD75F3F9B03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:berserker_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Berserker"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0A057E23984718D9"]
+			description: [
+				"Your fury has been forged into mastery. No longer just a vessel of rage, you are now the storm that tears through the front lines. "
+				""
+				"As a &cMaster Berserker&f, your presence radiates raw power fearless, relentless, and unstoppable."
+				""
+				"Craft &cthe Master Berserker &fArmor to claim your rightful title and with it, your strikes will become thunder and your roars will enemy shatter morale."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "rogues:netherite_berserker_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "6288E6D9E34A2DAE"
+			rewards: [
+				{
+					count: 15
+					id: "587D1F66996C8AC6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0E1E1D1FE42AEB91"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "Crowned in Carnage"
+			tasks: [
+				{
+					id: "03FE9FB9C50FA842"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_berserker_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B89581DC33BDD6D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_berserker_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F32B6FACAC2334B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_berserker_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D58F8CD202E7CEA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "rogues:netherite_berserker_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Master Berserker"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["33E850DA9D2E8F13"]
+			description: [
+				"Having proven your unwavering faith and strength as a &ePaladin, &fyou now stand ready to take the mantle of &eCrusader &fan elite holy warrior empowered to carry justice into the darkest of strongholds."
+				""
+				"&eThe Crusader &fdoes not defend from behind sacred walls they lead the charge, shield in hand and purpose aflame."
+				""
+				"Don &ethe Crusader's &farmor and embrace your divine calling."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "paladins:crusader_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "216D62F38E300C5E"
+			rewards: [
+				{
+					count: 10
+					id: "3CD722FD824F907A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0CB5C10A621A3803"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Sanctified Steel"
+			tasks: [
+				{
+					id: "17684746C49F146F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:crusader_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E7ABE5EFB4A77C8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:crusader_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "018D9F36470A2D1D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:crusader_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27DEB4C03888F288"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:crusader_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Crusader"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["216D62F38E300C5E"]
+			description: [
+				"You’ve marched in the name of the light, stood firm against the abyss, and triumphed where others faltered."
+				""
+				"Now, only one path remains to ascend as a &eMaster Crusader&f, the pinnacle of divine warfare."
+				""
+				"Clad in holy steel and wielding power drawn from unwavering conviction, &ethe Master Crusader &fis more than a warrior they are a beacon. Become the standard others rally behind. Craft &ethe Master Crusader &farmor and cement your legacy in light."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "paladins:netherite_crusader_armor_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "5E643571BEADC5D1"
+			rewards: [
+				{
+					count: 15
+					id: "643CA1C73A06266E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1466AF3B31C1B3F6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "Hammer of the Heavens"
+			tasks: [
+				{
+					id: "42B2863A42FFA13B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_crusader_armor_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B4BF7B20378B28B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_crusader_armor_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "229E707E94E744F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_crusader_armor_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "134F02F287735484"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_crusader_armor_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Master Crusader"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["35124F2BAC0D9777"]
+			description: [
+				"Your healing touch has mended wounds, your blessings have strengthened allies, and your prayers have echoed across the battlefield. But now, the time has come to rise further within the sacred hierarchy."
+				""
+				"As a &6Prior&f, you are entrusted not only with divine powerbut with spiritual guidance, channeling greater healing, warding magics, and holy control over the forces of darkness."
+				""
+				"Craft &6the Prior’s &frobes and embrace your elevated role as a true shepherd of the faithful."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "paladins:prior_robe_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "1DFFF28417CD3EA6"
+			rewards: [
+				{
+					count: 10
+					id: "3949C29CED2DE480"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "148C2765A9D124C9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			subtitle: "Cleric's Calling"
+			tasks: [
+				{
+					id: "3109C1C143960595"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:prior_robe_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E894CAA1A256E78"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:prior_robe_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EC4B5E1E4468BE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:prior_robe_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66773B94409BC459"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:prior_robe_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Prior"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1DFFF28417CD3EA6"]
+			description: [
+				"Your journey of faith has led you through healing, protection, and divine intervention. As a &6Prior&f, you’ve stood as a beacon of hope but the time has come to ascend to the highest spiritual echelon."
+				""
+				"The title of &6Master Prior &fis not merely bestowed it is earned through unwavering service, sacred knowledge, and the crafting of your divine vestments. "
+				""
+				"With this mantle, you will command celestial power, fortify allies with unmatched blessings, and silence darkness with holy fury."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "paladins:netherite_prior_robe_head"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "70A4D35210661D56"
+			rewards: [
+				{
+					count: 15
+					id: "499560E71B73BFCD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "49C92D65F537587D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			subtitle: "Shepherd of the Sacred"
+			tasks: [
+				{
+					id: "032A96056F71F54A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_prior_robe_head"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "140CAD672A07AAD9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_prior_robe_chest"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E1F4719DFF820EB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_prior_robe_legs"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B8D291BAA47732B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "paladins:netherite_prior_robe_feet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Advance to Master Prior"
+			x: 3.0d
+			y: -6.0d
+		}
+	]
+	title: "{\"text\":\"Path to Power\",\"color\":\"#a84432\",\"bold\":false,\"underlined\":false}"
+}

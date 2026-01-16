@@ -1,0 +1,11 @@
+[08:21:04] [ServerMain/ERROR]: Failed to start the minecraft server
+joptsimple.UnrecognizedOptionException: X is not a recognized option
+	at joptsimple.OptionException.unrecognizedOption(OptionException.java:108) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParser.validateOptionCharacters(OptionParser.java:633) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParser.handleShortOptionCluster(OptionParser.java:528) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParser.handleShortOptionToken(OptionParser.java:523) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParserState$2.handleArgument(OptionParserState.java:59) ~[jopt-simple-5.0.4.jar:?]
+	at joptsimple.OptionParser.parse(OptionParser.java:396) ~[jopt-simple-5.0.4.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:90) ~[server-1.20.1.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
